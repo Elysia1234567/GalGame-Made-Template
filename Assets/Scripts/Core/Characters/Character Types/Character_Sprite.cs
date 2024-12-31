@@ -57,6 +57,7 @@ namespace CHARACTERS
 
         public Sprite GetSprite(string spriteName)
         {
+            //Debug.LogWarning($"正在解析{spriteName}");
             if(config.characterType==CharacterType.SpriteSheet)
             {
                 string[] data = spriteName.Split(SPRITESHEET_TEX_SPRITE_DELIMITTER);
@@ -163,6 +164,18 @@ namespace CHARACTERS
             { yield return null;}
 
             co_flipping = null;
+        }
+
+        public override void OnReceiveCastingExpression(int layer, string expression)
+        {
+            Sprite sprite = GetSprite(expression);
+
+            if(sprite == null)
+            {
+                Debug.LogWarning($"图片精灵{expression}不存在,层级是{layer}");
+                return;
+            }
+            TransitionSprite(sprite, layer);
         }
 
     }

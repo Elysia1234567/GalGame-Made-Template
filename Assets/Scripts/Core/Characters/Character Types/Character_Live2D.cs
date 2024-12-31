@@ -159,5 +159,10 @@ namespace CHARACTERS
         {
             renderController.SortingOrder = sortingIndex * CHARACTER_SORTING_DEPTH_SIZE;
         }
+
+        public override void OnReceiveCastingExpression(int layer, string expression)
+        {
+            SetExpression(expression);
+        }
     }
 }

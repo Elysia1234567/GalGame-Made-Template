@@ -252,5 +252,10 @@ namespace CHARACTERS
 
             co_flipping = null;
         }
+
+        public override void OnReceiveCastingExpression(int layer, string expression)
+        {
+            SetExpression(expression, 1);
+        }
     }
 }

@@ -1,25 +1,5 @@
-This is a random line of dialogue here.
+enter Raelin as 常盘华乃 at 1 [0:B1,1:B_Blush] "濑和环能作为天才童星出道的主要原因，一言蔽之 {wc 1} 就是走运。"
 
-Elen "command(arguments go here)"
+Raelin "被分配到的角色，正好就是自己最擅长的领域。"
 
-Elen "(This is a thought)"
-
-Elen "This is some dialogue" command(args go here)
-
-command(more args go here),argCom(yes another one)
-
-command("This is another one again")
-
-print_1p("This is a command running straight from our dialogue file!")
-
-John "Move Left and then Right" print_1p("Start Moving"), [wait]moveCharDemo(left),[wait]moveCharDemo(right),print_1p("Done")
-
-John "Let's play some music!" playSong("Funky Beets" -v 0.75 -p 1), setMood(chill)
-
-Elen "You have odd taste in music." playVoice("e_d1_v2" -v 1.5), setBackground(Room1 -t "Diagonal Lines" -s 3.5)
-
-setAccomplishment("A Legendary Boombox" true),setCLI(Elen 0:Angle1 1:Intrigued -s 2.3 -1 true)
-
-showScene(false),StopMusic(all -s 1.5)
-
-John "aaaaaaaa {wa 1},bbbbbbbbbbb {c} ccccccccccc{wc 1} dddddddddd"
+"再加上偶然间撞到合适的剧本，一切都那么的严丝合缝。"
