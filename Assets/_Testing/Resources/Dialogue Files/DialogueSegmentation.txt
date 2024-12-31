@@ -1,0 +1,25 @@
+This is a random line of dialogue here.
+
+Elen "command(arguments go here)"
+
+Elen "(This is a thought)"
+
+Elen "This is some dialogue" command(args go here)
+
+command(more args go here),argCom(yes another one)
+
+command("This is another one again")
+
+print_1p("This is a command running straight from our dialogue file!")
+
+John "Move Left and then Right" print_1p("Start Moving"), [wait]moveCharDemo(left),[wait]moveCharDemo(right),print_1p("Done")
+
+John "Let's play some music!" playSong("Funky Beets" -v 0.75 -p 1), setMood(chill)
+
+Elen "You have odd taste in music." playVoice("e_d1_v2" -v 1.5), setBackground(Room1 -t "Diagonal Lines" -s 3.5)
+
+setAccomplishment("A Legendary Boombox" true),setCLI(Elen 0:Angle1 1:Intrigued -s 2.3 -1 true)
+
+showScene(false),StopMusic(all -s 1.5)
+
+John "aaaaaaaa {wa 1},bbbbbbbbbbb {c} ccccccccccc{wc 1} dddddddddd"

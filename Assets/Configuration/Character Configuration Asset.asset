@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d409cc5fab14640ae01b3de25fde62, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: Stella
+    alias: s
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - name: Elen
+    alias: e
+    characterType: 0
+    nameColor: {r: 1, g: 0.7962264, b: 0.7962264, a: 1}
+    dialogueColor: {r: 0.990566, g: 0.69834477, b: 0.48033106, a: 1}
+    nameFont: {fileID: 11400000, guid: 1f9987afb925cfc46ad034ca97acfba8, type: 2}
+    dialogueFont: {fileID: 11400000, guid: e94f9ea549dac6348b79fb33e9451f34, type: 2}
+  - name: Benjamin
+    alias: ben
+    characterType: 0
+    nameColor: {r: 0.63880044, g: 0.9433962, b: 0.4129583, a: 1}
+    dialogueColor: {r: 0.50195795, g: 0.9433962, b: 0.8362718, a: 1}
+    nameFont: {fileID: 11400000, guid: a6a9963a494a04c47bfb712ccfd23da3, type: 2}
+    dialogueFont: {fileID: 11400000, guid: d22ea559779c55a4cbbc1aae11309bf6, type: 2}
+  - name: Raelin
+    alias: r
+    characterType: 2
+    nameColor: {r: 0.7108106, g: 0.39012104, b: 0.9528302, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Female Student 2
+    alias: fs2
+    characterType: 1
+    nameColor: {r: 0.9339623, g: 0.5452945, b: 0.35596296, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Generic
+    alias: gen
+    characterType: 2
+    nameColor: {r: 1, g: 0.80543524, b: 0.3622641, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Mao
+    alias: mao
+    characterType: 3
+    nameColor: {r: 1, g: 0.80543524, b: 0.3622641, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Natori
+    alias: nat
+    characterType: 3
+    nameColor: {r: 1, g: 0.80543524, b: 0.3622641, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Rice
+    alias: ri
+    characterType: 3
+    nameColor: {r: 1, g: 0.80543524, b: 0.3622641, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Koharu
+    alias: ko
+    characterType: 3
+    nameColor: {r: 1, g: 0.80543524, b: 0.3622641, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+  - name: Maria
+    alias: ma
+    characterType: 4
+    nameColor: {r: 1, g: 0.23820345, b: 0.032075405, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
