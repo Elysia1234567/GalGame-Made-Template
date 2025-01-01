@@ -33,6 +33,7 @@ namespace DIALOGUE
                     isEscaped = !isEscaped;
                 else if ((current== '"'&&!isEscaped))
                 {
+                    Debug.LogWarning("进入了对话");
                     if(dialogueStart==-1)
                         dialogueStart = i;
                     else if(dialogueEnd==-1)
@@ -47,13 +48,21 @@ namespace DIALOGUE
             int commandStart = -1;
             foreach(Match match in matches)
             {
+                //Debug.LogWarning($"确认命令的匹配,{match.Index},对话的开头{dialogueStart},对话的结尾{dialogueEnd}");
                 if (match.Index<dialogueStart||match.Index>dialogueEnd)//处理命令的起始位置，以及判断是否只有命令
                 {
+                    //Debug.LogWarning("进入了吗");
                     commandStart = match.Index;
+                    if (commandStart != -1 && dialogueStart == -1 && dialogueEnd == -1)
+                    {
+                        //Debug.LogWarning($"应该全为命令");
+                        return ("", "", rawLine.Trim());
+                    }
+                    //Debug.LogWarning($"{commandStart}");
                     break;
                 }
-                if (commandStart!=-1&&dialogueStart == -1 && dialogueEnd == -1)
-                    return ("", "", rawLine.Trim());
+               
+                   
             }
            
             if (dialogueStart != -1 && dialogueEnd != -1 && (commandStart == -1 || commandStart > dialogueEnd))//有对话
@@ -66,7 +75,11 @@ namespace DIALOGUE
             else if (commandStart != -1 && dialogueStart > commandStart)//只有命令
                 commands = rawLine;
             else//没有找到匹配项
+            {
+                //Debug.LogWarning($"进了没有匹配项");
                 dialogue = rawLine;
+            }
+                
             return (speaker, dialogue, commands);
         }
     }

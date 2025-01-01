@@ -1,5 +1,13 @@
+wait(1),CreateCharacter(Raelin),CreateCharacter("Guard1 as Generic" -e true -i true)
+
+MoveCharacter(Raelin 1 -0.5 0.75)
+
+Show(Raelin -immediate false)
+
+Narrator "Showing Characters."
+
 enter Raelin as 常盘华乃 at 1 [0:B1,1:B_Blush] "濑和环能作为天才童星出道的主要原因，一言蔽之 {wc 1} 就是走运。"
 
-Raelin "被分配到的角色，正好就是自己最擅长的领域。"
+Raelin [A_Blush] "被分配到的角色，正好就是自己最擅长的领域。"
 
 "再加上偶然间撞到合适的剧本，一切都那么的严丝合缝。"
