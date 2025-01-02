@@ -1,6 +1,42 @@
 wait(2),CreateCharacter("Stella as Female Student 2" 1 -e true),CreateCharacter(Raelin -e true -i true),CreateCharacter("Guard1 as Generic" -e true -i true)
 
-[wait]MoveCharacter(Raelin 1 -2.5 0.01)
+wait(1),Stella.Move(-x 0 -i true),Raelin.Move(-x 1  -i true)
+
+
+wait(1)
+
+
+Raelin.SetSprite(-s A2 -l 0 -speed 0.75),Raelin.SetSprite(-s A_Scared -l 1 -speed 0.75)
+
+Raelin "We are set sprite now"
+
+wait(5)
+
+[wait]highlight(Stella Raelin),wait(1),[wait]Highlight(Stella Raelin),wait(1)
+
+[wait]Highlight(Stella -o true),wait(1),[wait]Unhighlight(Stella -o true),wait(1)
+
+
+[wait]Stella.UnHighlight(),[wait]Raelin.UnHighlight()
+[wait]Stella.Highlight(),[wait]Raelin.Highlight()
+
+Stella.Unhighlight(-i true),Raelin.Unhighlight(-i true)
+wait(1)
+Stella.Highlight(-i true),Raelin.Unhighlight(-i true)
+
+wait(1)
+
+
+
+
+
+
+wait(1),Sort(Stella Raelin Guard1),Stella.SetColor(red),wait(1)
+
+[wait]Stella.Hide(),[wait]Stella.Show()
+[wait]MoveCharacter(Raelin 1 -2.5 0.5)
+
+[wait]Stella.Move(0 1 -spd 0.5)
 Stella "We are moving"
 Hide(Stella Guard1 Raelin -spd 0.01)
 Stella "Thank you for joining me!{c}I'm looking forward to writing some commands with you!"

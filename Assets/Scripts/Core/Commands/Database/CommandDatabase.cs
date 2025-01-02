@@ -9,7 +9,7 @@ namespace COMMANDS
     {
         private Dictionary<string, Delegate> database = new Dictionary<string, Delegate>();
 
-        public bool HasCommand(string commandName) => database.ContainsKey(commandName);
+        public bool HasCommand(string commandName) => database.ContainsKey(commandName.ToLower());
 
         public void AddCommand(string commandName, Delegate command)
         {
@@ -25,6 +25,12 @@ namespace COMMANDS
         public Delegate GetCommand(string commandName)
         {
             commandName = commandName.ToLower();
+            //foreach(string names in database.Keys)
+            //{
+            //    Debug.LogWarning($"在指令为{commandName}时，数据库中有{names}");
+            //}
+            //Debug.LogWarning("结束");
+            Debug.LogWarning(database.ContainsKey("highlight"));
             if (!database.ContainsKey(commandName))
             {
                 Debug.LogError($"指令不存在数据库中'{commandName}'");

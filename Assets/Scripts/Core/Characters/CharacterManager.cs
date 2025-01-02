@@ -11,6 +11,7 @@ namespace CHARACTERS
     public class CharacterManager : MonoBehaviour
     {
         public static CharacterManager instance { get; private set; }
+        public Character[] allCharacters=>characters.Values.ToArray();
         private Dictionary<string , Character> characters = new Dictionary<string , Character>();//目录一般都会存储在管理器中
 
         private CharacterConfigSO config=>DialogueSystem.instance.config.characterConfigurationAsset;
@@ -47,6 +48,8 @@ namespace CHARACTERS
                 return CreateCharacter(characterName);
             return null;
         }
+
+        public bool HasCharacter(string characterName) => characters.ContainsKey(characterName.ToLower());
 
         public Character CreateCharacter(string characterName,bool revealAfterCreation=false)
         {

@@ -177,31 +177,31 @@ namespace CHARACTERS
             yield return null;
         }
 
-        public Coroutine Highlight(float speed=1f)
+        public Coroutine Highlight(float speed=1f,bool immediate =false)
         {
             if(isHighlighting)
                 return co_highlighting;
             if(isUnHighlighting)
                 characterManager.StopCoroutine(co_highlighting);
             highlighted = true;
-            co_highlighting = characterManager.StartCoroutine(Highlighting(speed));
+            co_highlighting = characterManager.StartCoroutine(Highlighting(speed,immediate));
 
             return co_highlighting;
         }
 
-        public Coroutine UnHighlight(float speed=1f)
+        public Coroutine UnHighlight(float speed=1f,bool immediate =false)
         {
             if (isUnHighlighting)
                 return co_highlighting;
             if (isHighlighting)
                 characterManager.StopCoroutine(co_highlighting);
             highlighted = false;
-            co_highlighting = characterManager.StartCoroutine(Highlighting( speed));
+            co_highlighting = characterManager.StartCoroutine(Highlighting( speed,immediate));
 
             return co_highlighting;
         }
 
-        public virtual IEnumerator Highlighting(float speedMultiplier)
+        public virtual IEnumerator Highlighting(float speedMultiplier, bool immediate = false)
         {
             Debug.Log("该类型的角色不能使用高亮功能");
             yield return null;
