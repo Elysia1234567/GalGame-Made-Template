@@ -1,13 +1,14 @@
-wait(1),CreateCharacter(Raelin),CreateCharacter("Guard1 as Generic" -e true -i true)
+wait(2),CreateCharacter("Stella as Female Student 2" 1 -e true),CreateCharacter(Raelin -e true -i true),CreateCharacter("Guard1 as Generic" -e true -i true)
 
-MoveCharacter(Raelin 1 -0.5 0.75)
+[wait]MoveCharacter(Raelin 1 -2.5 0.01)
+Stella "We are moving"
+Hide(Stella Guard1 Raelin -spd 0.01)
+Stella "Thank you for joining me!{c}I'm looking forward to writing some commands with you!"
 
-Show(Raelin -immediate false)
+Show(Stella Guard1 Raelin -spd 0.01)
+Stella "Now we are visible"
+MoveCharacter(Guard1 0 -spd 0.5), MoveCharacter(Raelin 0.1 -spd 0.5),Hide(Stella)
 
-Narrator "Showing Characters."
+Guard1 "Where did she go?"
 
-enter Raelin as 常盘华乃 at 1 [0:B1,1:B_Blush] "濑和环能作为天才童星出道的主要原因，一言蔽之 {wc 1} 就是走运。"
-
-Raelin [A_Blush] "被分配到的角色，正好就是自己最擅长的领域。"
-
-"再加上偶然间撞到合适的剧本，一切都那么的严丝合缝。"
+Raelin "I don't know!"

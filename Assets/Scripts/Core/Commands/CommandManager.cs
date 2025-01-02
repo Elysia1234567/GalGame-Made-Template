@@ -4,15 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace COMMANDS
 {
     public class CommandManager : MonoBehaviour
     {
+        
         public static CommandManager instance { get; private set; }
-        private static Coroutine process = null;
-        public static bool isRunningProcess => process != null;
+        //private static Coroutine process = null;
+        //public static bool isRunningProcess => process != null;
         private CommandDatabase database;
+
+        private List<CommandProcess> activeProcesses=new List<CommandProcess>();//建这个主要是为了能同时监视多个进程
+        private CommandProcess topProcess => activeProcesses.Last();
 
         private void Awake()
         {
@@ -34,7 +39,7 @@ namespace COMMANDS
                 DestroyImmediate(gameObject);
         }
 
-        public Coroutine Execute(string commandName, params string[] args)
+        public CoroutineWrapper Execute(string commandName, params string[] args)
         {
             Delegate command = database.GetCommand(commandName);
 
@@ -46,25 +51,50 @@ namespace COMMANDS
 
         }
 
-        private Coroutine StartProcess(string commandName, Delegate command, string[] args)
+        private CoroutineWrapper StartProcess(string commandName, Delegate command, string[] args)
         {
-            StopCurrentProcess();
-            process = StartCoroutine(RunningProcess(command, args));
-            return process;
+            //StopCurrentProcess();
+            Guid precessID=Guid.NewGuid();
+            CommandProcess cmd=new CommandProcess(precessID, commandName, command,null,args,null);
+            activeProcesses.Add(cmd);
+
+            Coroutine co = StartCoroutine(RunningProcess(cmd));
+
+            cmd.runningProcess = new CoroutineWrapper(this,co);
+            return cmd.runningProcess;
         }
 
-        private void StopCurrentProcess()
+        public void StopCurrentProcess()
         {
-            if (process != null)
-                StopCoroutine(process);
-            process = null;
+            if (topProcess != null)
+                KillProcess(topProcess);
         }
 
-        private IEnumerator RunningProcess(Delegate command, string[] args)
+        public void StopAllProcesses()
         {
-            yield return WaitingForProcessToComplete(command, args);
+            foreach (var c in activeProcesses)
+            {
+                if(c.runningProcess != null&&!c.runningProcess.IsDone)
+                    c.runningProcess.Stop();
+                //Debug.LogWarning($"目前进程是{c}的终止方法是{c.onTerminateAction}");
+                c.onTerminateAction?.Invoke();
+            }
+        }
 
-            process = null;
+        private IEnumerator RunningProcess(CommandProcess process)
+        {
+            yield return WaitingForProcessToComplete(process.command,process.args);
+
+            KillProcess(process);
+        }
+
+        public void KillProcess(CommandProcess cmd)
+        {
+            activeProcesses.Remove(cmd);
+
+            if (cmd.runningProcess != null && !cmd.runningProcess.IsDone)
+                cmd.runningProcess.Stop();
+            cmd.onTerminateAction?.Invoke();
         }
 
         private IEnumerator WaitingForProcessToComplete(Delegate command, string[] args)
@@ -81,6 +111,17 @@ namespace COMMANDS
                 yield return ((Func<string, IEnumerator>)command)(args[0]);
             else if (command is Func<string[], IEnumerator>)
                 yield return ((Func<string[], IEnumerator>)command)(args);
+        }
+
+        public void AddTerminationActionToCurrentProcess(UnityAction action)
+        {
+            CommandProcess process = topProcess;
+
+            if (process == null)
+                return;
+
+            process.onTerminateAction = new UnityEvent();
+            process.onTerminateAction.AddListener(action);
         }
     }
 }
