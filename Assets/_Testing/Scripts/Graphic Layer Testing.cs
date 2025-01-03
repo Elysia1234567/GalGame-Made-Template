@@ -18,7 +18,8 @@ public class GraphicLayerTesting : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         Texture blendTex = Resources.Load<Texture>("Graphics/Transition Effects/hurricane");
-        layer.SetTexture("Graphics/BG Images/2",blendingTexture:blendTex);
+        //layer.SetTexture("Graphics/BG Images/2",blendingTexture:blendTex);
+        layer.SetVideo("Graphics/BG Videos/Fantasy Landscape");
 
         //layer.currentGraphic.renderer.material.SetColor("_Color", Color.red);
     }

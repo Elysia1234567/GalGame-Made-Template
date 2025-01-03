@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class GraphicLayer
 {
@@ -26,13 +27,31 @@ public class GraphicLayer
     {
         CreateGraphic(tex, transitionSpeed, filePath, blendingTexture:blendingTexture);
     }
+    public void SetVideo(string filePath, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null)
+    {
+        VideoClip clip = Resources.Load<VideoClip>(filePath);
+
+        if (clip == null)
+        {
+            Debug.LogError($"找不到路径为{filePath}的视频");
+            return;
+        }
+        SetVideo(clip, transitionSpeed,useAudio ,blendingTexture, filePath);
+    }
+
+    public void SetVideo(VideoClip video, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null, string filePath = "")
+    {
+        CreateGraphic(video, transitionSpeed, filePath, blendingTexture: blendingTexture);
+    }
 
     private void CreateGraphic<T>(T graphicData,float transitionSpeed,string filePath,bool useAudioForVideo=true,Texture blendingTexture =null)
     {
         GraphicObject newGraphic=null;
 
-        if(graphicData is Texture)
-            newGraphic =new GraphicObject(this,filePath,graphicData as Texture);
+        if (graphicData is Texture)
+            newGraphic = new GraphicObject(this, filePath, graphicData as Texture);
+        else if (graphicData is VideoClip)
+            newGraphic = new GraphicObject(this, filePath, graphicData as VideoClip,useAudioForVideo);
         currentGraphic = newGraphic;
         currentGraphic.FadeIn(transitionSpeed,blendingTexture);
     }
