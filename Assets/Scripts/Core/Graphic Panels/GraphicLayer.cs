@@ -9,7 +9,8 @@ public class GraphicLayer
     public int layerDepth = 0;
     public Transform panel;
 
-    public GraphicObject currentGraphic { get; private set; } = null;
+    public GraphicObject currentGraphic= null;
+    private List<GraphicObject> oldGraphics=new List<GraphicObject> ();
     // Start is called before the first frame update
     public void SetTexture(string filePath,float transitionSpeed=1f,Texture blendingTexture=null)
     {
@@ -52,7 +53,26 @@ public class GraphicLayer
             newGraphic = new GraphicObject(this, filePath, graphicData as Texture);
         else if (graphicData is VideoClip)
             newGraphic = new GraphicObject(this, filePath, graphicData as VideoClip,useAudioForVideo);
+
+        if(currentGraphic != null&&!oldGraphics.Contains(currentGraphic))
+            oldGraphics.Add(currentGraphic);
         currentGraphic = newGraphic;
         currentGraphic.FadeIn(transitionSpeed,blendingTexture);
+    }
+
+    public void DestroyOldGraphics()
+    {
+        foreach (var g in oldGraphics)
+            Object.Destroy(g.renderer.gameObject);
+        oldGraphics.Clear();
+    }
+
+    public void Clear()
+    {
+        if (currentGraphic != null)
+            currentGraphic.FadeOut();
+
+        foreach(var g in oldGraphics)
+            g.FadeOut();
     }
 }

@@ -15459,6 +15459,10 @@ MonoBehaviour:
   allPanels:
   - panelName: Background
     rootPanel: {fileID: 761558780}
+  - panelName: Cinematic
+    rootPanel: {fileID: 2024086800}
+  - panelName: Foreground
+    rootPanel: {fileID: 535167950}
 --- !u!43 &270178494
 Mesh:
   m_ObjectHideFlags: 0
