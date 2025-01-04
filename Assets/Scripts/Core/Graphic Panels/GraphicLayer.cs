@@ -12,52 +12,55 @@ public class GraphicLayer
     public GraphicObject currentGraphic= null;
     private List<GraphicObject> oldGraphics=new List<GraphicObject> ();
     // Start is called before the first frame update
-    public void SetTexture(string filePath,float transitionSpeed=1f,Texture blendingTexture=null)
+    public Coroutine SetTexture(string filePath,float transitionSpeed=1f,Texture blendingTexture=null,bool immediate=false)
     {
         Texture tex=Resources.Load<Texture>(filePath);
 
         if(tex == null )
         {
             Debug.LogError($"找不到路径为{filePath}的图片");
-            return;
+            return null;
         }
-        SetTexture(tex,transitionSpeed,blendingTexture,filePath);
+        return SetTexture(tex,transitionSpeed,blendingTexture,filePath);
     }
 
-    public void SetTexture(Texture tex,float transitionSpeed=1f,Texture blendingTexture=null,string filePath="")
+    public Coroutine SetTexture(Texture tex,float transitionSpeed=1f,Texture blendingTexture=null,string filePath="", bool immediate = false)
     {
-        CreateGraphic(tex, transitionSpeed, filePath, blendingTexture:blendingTexture);
+        return CreateGraphic(tex, transitionSpeed, filePath, blendingTexture: blendingTexture,immediate:immediate);
     }
-    public void SetVideo(string filePath, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null)
+    public Coroutine SetVideo(string filePath, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null, bool immediate = false)
     {
         VideoClip clip = Resources.Load<VideoClip>(filePath);
 
         if (clip == null)
         {
             Debug.LogError($"找不到路径为{filePath}的视频");
-            return;
+            return null;
         }
-        SetVideo(clip, transitionSpeed,useAudio ,blendingTexture, filePath);
+        return SetVideo(clip, transitionSpeed,useAudio ,blendingTexture, filePath);
     }
 
-    public void SetVideo(VideoClip video, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null, string filePath = "")
+    public Coroutine SetVideo(VideoClip video, float transitionSpeed = 1f, bool useAudio=true,Texture blendingTexture = null, string filePath = "", bool immediate = false)
     {
-        CreateGraphic(video, transitionSpeed, filePath, blendingTexture: blendingTexture);
+        return CreateGraphic(video, transitionSpeed, filePath,useAudio, blendingTexture: blendingTexture,immediate);
     }
 
-    private void CreateGraphic<T>(T graphicData,float transitionSpeed,string filePath,bool useAudioForVideo=true,Texture blendingTexture =null)
+    private Coroutine CreateGraphic<T>(T graphicData,float transitionSpeed,string filePath,bool useAudioForVideo=true,Texture blendingTexture =null, bool immediate = false)
     {
         GraphicObject newGraphic=null;
 
         if (graphicData is Texture)
-            newGraphic = new GraphicObject(this, filePath, graphicData as Texture);
+            newGraphic = new GraphicObject(this, filePath, graphicData as Texture,immediate);
         else if (graphicData is VideoClip)
-            newGraphic = new GraphicObject(this, filePath, graphicData as VideoClip,useAudioForVideo);
+            newGraphic = new GraphicObject(this, filePath, graphicData as VideoClip,useAudioForVideo,immediate);
 
         if(currentGraphic != null&&!oldGraphics.Contains(currentGraphic))
             oldGraphics.Add(currentGraphic);
         currentGraphic = newGraphic;
-        currentGraphic.FadeIn(transitionSpeed,blendingTexture);
+        if(!immediate)
+            return currentGraphic.FadeIn(transitionSpeed, blendingTexture);
+        DestroyOldGraphics();
+        return null;
     }
 
     public void DestroyOldGraphics()

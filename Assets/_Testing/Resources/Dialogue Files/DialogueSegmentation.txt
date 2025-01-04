@@ -1,3 +1,12 @@
+
+wait(1)
+
+SetLayerMedia(background "Fantasy Landscape" -aud true -spd 0.7 -blend hurricane -i true)
+
+CreateCharacter(Raelin -e true -i true)
+
+Raelin "Welcome to the Barracks!"
+
 wait(2),CreateCharacter("Stella as Female Student 2" 1 -e true),CreateCharacter(Raelin -e true -i true),CreateCharacter("Guard1 as Generic" -e true -i true)
 
 wait(1),Stella.Move(-x 0 -i true),Raelin.Move(-x 1  -i true)
