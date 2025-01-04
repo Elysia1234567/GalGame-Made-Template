@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\scripts\\core\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\resources\\dialogue files\\dialoguesegmentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\resources\\dialogue files\\dialoguesegmentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\testcharacters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -218,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -312,8 +312,38 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogueSegmentation.txt",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-01T02:35:30.398Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwE0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:39:44.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Audio Testing.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
@@ -323,35 +353,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T07:23:11.037Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAADwv0oAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T06:39:44.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DialogueSegmentation.txt",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "ViewState": "AQIAAAcAAAAAAAAAAABAwBcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-01T02:35:30.398Z"
             },
             {
               "$type": "Document",
