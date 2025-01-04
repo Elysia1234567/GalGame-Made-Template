@@ -21,6 +21,7 @@ namespace COMMANDS
         new public static void Extend(CommandDatabase database)
         {
             database.AddCommand("setlayermedia",new Func<string[],IEnumerator>(SetLayerMedia));
+            database.AddCommand("clearlayermedia", new Func<string[], IEnumerator>(ClearLayerMedia));
         }
 
         private static IEnumerator SetLayerMedia(string[] data)
@@ -87,6 +88,54 @@ namespace COMMANDS
             else
             {
                 yield return graphicLayer.SetVideo(graphic as VideoClip, transitionSpeed,useAudio, blendTex, pathToGraphic, immediate);
+            }
+        }
+
+        private static IEnumerator ClearLayerMedia(string[] data)
+        {
+            string panelName = "";
+            int layer = 0;
+            float transitionSpeed = 0;
+            bool immediate = false;
+            string blendTexName = "";
+
+            Texture blendTex = null;
+
+            var parameters =ConvertDataToParameters(data);
+
+            parameters.TryGetValue(PARAM_PANEL, out panelName);
+            GraphicPanel panel=GraphicPanelManager.instance.GetPanel(panelName);
+            if(panel == null)
+            {
+                Debug.LogError($"没有找到叫做{panelName}的面板");
+                yield break ;
+            }
+            parameters.TryGetValue(PARAM_LAYER, out layer,defaultValue:-1);
+
+            parameters.TryGetValue(PARAM_IMMEDIATE, out immediate,defaultValue:false);
+
+            if(!immediate)
+            {
+                parameters.TryGetValue(PARAM_SPEED,out transitionSpeed,defaultValue:1);
+            }
+
+            parameters.TryGetValue(PARAM_BLENDTEX, out blendTexName);
+
+            if (!immediate && blendTexName != string.Empty)
+                blendTex = Resources.Load<Texture>(FilePaths.resources_blendTextures + blendTexName);
+
+            if(layer==-1)
+                panel.Clear(transitionSpeed,blendTex,immediate);
+            else
+            {
+                GraphicLayer graphicLayer=panel.GetLayer(layer);
+                if(graphicLayer == null)
+                {
+                    Debug.LogError($"找不到层数为{layer}的层");
+                    yield break;
+                }
+
+                graphicLayer.Clear(transitionSpeed,blendTex,immediate);
             }
         }
 

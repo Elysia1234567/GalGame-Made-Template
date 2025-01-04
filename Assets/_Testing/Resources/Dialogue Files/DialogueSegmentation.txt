@@ -1,13 +1,27 @@
 
 wait(1)
 
-SetLayerMedia(background "Fantasy Landscape" -aud true -spd 0.7 -blend hurricane -i true)
+SetLayerMedia(background Nebula),SetLayerMedia(background 1 SpaceshipInterior)
 
 CreateCharacter(Raelin -e true -i true)
 
-Raelin "Welcome to the Barracks!"
+Raelin "Welcome!"
 
-wait(2),CreateCharacter("Stella as Female Student 2" 1 -e true),CreateCharacter(Raelin -e true -i true),CreateCharacter("Guard1 as Generic" -e true -i true)
+ClearLayerMedia(background -blend hypno)
+
+Raelin "Did we clear the background?"
+
+SetLayerMedia(cinematic -m "~/Graphics/Gallery/flower")
+
+Raelin "Have a look at the Cinematic Layer, huh?"
+
+ClearLayerMedia(cinematic -i true)
+
+Raelin "The cinematic layer should be cleared!"
+
+
+
+wait(2),CreateCharacter("Stella as Female Student 2" 1 -e true),CreateCharacter("Guard1 as Generic" -e true -i true)
 
 wait(1),Stella.Move(-x 0 -i true),Raelin.Move(-x 1  -i true)
 
