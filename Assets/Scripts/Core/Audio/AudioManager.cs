@@ -97,7 +97,7 @@ public class AudioManager : MonoBehaviour
 
     public void StopSoundEffect(AudioClip clip) => StopSoundEffect(clip.name);
 
-    public AudioTrack PlayTrack(string filePath,int channel=0,bool loop=true,float startingVolume=0f,float volumeCap=1f)
+    public AudioTrack PlayTrack(string filePath,int channel=0,bool loop=true,float startingVolume=0f,float volumeCap=1f,float pitch = 1f)
     {
         AudioClip clip=Resources.Load<AudioClip>(filePath);
         if(clip == null )
@@ -106,13 +106,13 @@ public class AudioManager : MonoBehaviour
             return null;
         }
 
-        return PlayTrack(clip,channel,loop,startingVolume,volumeCap,filePath);
+        return PlayTrack(clip,channel,loop,startingVolume,volumeCap,pitch,filePath);
     }
 
-    public AudioTrack PlayTrack(AudioClip clip, int channel = 0, bool loop = true, float startingVolume = 0f, float volumeCap = 1f,string filePath="")
+    public AudioTrack PlayTrack(AudioClip clip, int channel = 0, bool loop = true, float startingVolume = 0f, float volumeCap = 1f,float pitch=1f,string filePath="")
     {
         AudioChannel audioChannel = TryGetChannel(channel, createIfDoesNotExist: true);
-        AudioTrack track=audioChannel.PlayTrack(clip,loop,startingVolume,volumeCap,filePath);
+        AudioTrack track=audioChannel.PlayTrack(clip,loop,startingVolume,volumeCap,pitch,filePath);
         return null;
     }
 
@@ -126,8 +126,19 @@ public class AudioManager : MonoBehaviour
         }
         else if(createIfDoesNotExist)
         {
-            return new AudioChannel(channelNumber);
+            channel= new AudioChannel(channelNumber);
+            channels.Add(channelNumber, channel);
+            return channel;
         }
         return null;
+    }
+
+    public void StopTrack(int channel)
+    {
+        AudioChannel c=TryGetChannel(channel,createIfDoesNotExist:false);
+
+        if (c == null)
+            return;
+        c.StopTrack();
     }
 }

@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\audio\\audiochannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiochannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\_testing\\resources\\dialogue files\\dialoguesegmentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\resources\\dialogue files\\dialoguesegmentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\resources\\dialogue files\\dialoguesegmentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -226,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -320,19 +320,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AudioTrack.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T01:20:53.221Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
@@ -344,7 +331,7 @@
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
               "RelativeToolTip": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwDcAAABPAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA2wFMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T07:23:11.037Z",
               "EditorCaption": ""
@@ -352,25 +339,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AudioTrack.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwCAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T01:20:53.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAgwG4AAAAAAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAuwI0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T06:39:44.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AudioChannel.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAgwCAAAAByAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAuwEsAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T08:44:30.161Z",
               "EditorCaption": ""
@@ -385,8 +385,7 @@
               "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-01T02:35:30.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:35:30.398Z"
             },
             {
               "$type": "Document",
