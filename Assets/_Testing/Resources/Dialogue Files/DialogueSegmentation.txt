@@ -1,4 +1,22 @@
 
+
+PlayAmbience(RainyMood)
+PlaySong("Happy")
+PlayVoice(exclamation)
+enter Raelin "Yes! It worked!"
+
+StopSong()
+StopAmbience()
+
+PlayVoice(exclamation)
+
+playsfx(thunder_strong_01 -loop true)
+
+narrator "Did you know that astraphobia is the fear of thunder and lighting?"
+
+stopsfx(thunder_strong_01)
+
+
 wait(1)
 
 SetLayerMedia(background Nebula),SetLayerMedia(background 1 SpaceshipInterior)

@@ -174,7 +174,7 @@ namespace DIALOGUE
                 yield return null;
             }
         }
-
+        
         IEnumerator WaitForUserInput()
         {
             while(!userPrompt)

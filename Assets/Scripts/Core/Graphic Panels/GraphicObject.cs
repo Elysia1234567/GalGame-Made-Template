@@ -7,6 +7,7 @@ using UnityEngine.Video;
 
 public class GraphicObject
 {
+    
     private const string NAME_FORMAT = "Graphic - [{0}]";
     private const string MATERIAL_PATH = "Materials/layerTransitionMaterial";
     private const string MATERIAL_FIELD_COLOR = "_Color";

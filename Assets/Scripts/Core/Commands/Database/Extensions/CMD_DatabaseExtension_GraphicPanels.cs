@@ -61,12 +61,12 @@ namespace COMMANDS
 
             parameters.TryGetValue(PARAM_USEVIDEOAUDIO, out useAudio,defaultValue:false);
 
-            pathToGraphic = GetPathToGraphic(FilePaths.resources_backgroundImages, mediaName);
+            pathToGraphic = FilePaths.GetPathToResource(FilePaths.resources_backgroundImages, mediaName);
             graphic = Resources.Load<Texture>(pathToGraphic);
 
             if(graphic == null )
             {
-                pathToGraphic=GetPathToGraphic(FilePaths.resources_backgroundVideos,mediaName);
+                pathToGraphic=FilePaths.GetPathToResource(FilePaths.resources_backgroundVideos,mediaName);
                 graphic=Resources.Load<VideoClip>(pathToGraphic);
             }
 
