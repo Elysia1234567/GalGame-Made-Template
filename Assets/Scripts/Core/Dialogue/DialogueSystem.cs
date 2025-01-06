@@ -1,6 +1,7 @@
 using CHARACTERS;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Networking.PlayerConnection;
 using UnityEngine;
 
 namespace DIALOGUE
@@ -57,8 +58,22 @@ namespace DIALOGUE
         {
             dialogueContainer.SetDialogueColor(config.dialogueColor);
             dialogueContainer.SetDialogueFont(config.dialogueFont);
+            if(config.dialogueFontScale==1)
+            dialogueContainer.SetDialogueFontSize(config.dialogueFontSize);
+            else
+            {
+                float fontSize = this.config.defaultDialogueFontSize * config.dialogueFontScale;
+                dialogueContainer.SetDialogueFontSize(fontSize);
+            }
             dialogueContainer.nameContainer.SetNameColor(config.nameColor);
             dialogueContainer.nameContainer.SetNameFont(config.nameFont);
+            if(config.nameFontScale==1)
+            dialogueContainer.nameContainer.SetNameFontSize(config.nameFontSize);
+            else
+            {
+                float fontSize=this.config.defaultNameFontSize * config.nameFontScale;
+                dialogueContainer.nameContainer.SetNameFontSize(fontSize);
+            }
         }
 
         public void ShowSpeakerName(string speakerName = "")

@@ -19,6 +19,11 @@ namespace CHARACTERS
         public TMP_FontAsset nameFont;
         public TMP_FontAsset dialogueFont;
 
+        public float nameFontSize;
+        public float dialogueFontSize;
+
+        public float nameFontScale = 1f;
+        public float dialogueFontScale=1f;
         public CharacterConfigData Copy()
         {
             CharacterConfigData result= new CharacterConfigData();
@@ -32,6 +37,11 @@ namespace CHARACTERS
             result.nameColor=new Color(nameColor.r, nameColor.g, nameColor.b,nameColor.a);//因为颜色直接赋值会指向同一个引用，所以要建个新的
             result.dialogueColor=new Color(dialogueColor.r,dialogueColor.g,dialogueColor.b,dialogueColor.a);
 
+            result.dialogueFontSize=nameFontSize;
+            result.nameFontSize=nameFontSize;
+
+            result.dialogueFontScale = dialogueFontScale;
+            result.nameFontScale=nameFontScale;
             return result;
         }
 
@@ -52,6 +62,12 @@ namespace CHARACTERS
 
                 result.nameColor = new Color(defaultColor.r, defaultColor.g, defaultColor.b, defaultColor.a);//因为颜色直接赋值会指向同一个引用，所以要建个新的
                 result.dialogueColor = new Color(defaultColor.r, defaultColor.g, defaultColor.b, defaultColor.a);
+
+                result.dialogueFontSize=DialogueSystem.instance.config.defaultDialogueFontSize;
+                result.nameFontSize = DialogueSystem.instance.config.defaultNameFontSize;
+
+                result.dialogueFontScale = 1f;
+                result.nameFontScale = 1f;
 
                 return result;
             }

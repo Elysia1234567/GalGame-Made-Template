@@ -14,6 +14,8 @@ namespace DIALOGUE
         public void SetDialogueColor(Color color)=> dialogueText.color = color;
 
         public void SetDialogueFont(TMP_FontAsset font)=>dialogueText.font = font;
+
+        public void SetDialogueFontSize(float size) => dialogueText.fontSize = size;
     }
 }
 

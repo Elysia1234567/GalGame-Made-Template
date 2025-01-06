@@ -31,6 +31,8 @@ namespace DIALOGUE
         public void SetNameColor(Color color) => nameText.color = color;
 
         public void SetNameFont(TMP_FontAsset font) => nameText.font = font;
+
+        public void SetNameFontSize(float size) => nameText.fontSize = size;
     }
 }
 
