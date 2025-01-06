@@ -1,4 +1,12 @@
 
+Narrator "And so begin the adventures of <mainChar>"
+
+<mainChar> "My name is <mainChar>.{c}What time is it?"
+
+Narrator "The time is <time> and you are only level <playerLevel>"
+
+<mainChar> "Fuggedaboutit! <tempVal1>"
+
 SetLayerMedia(background Nebula),SetLayerMedia(background 1 SpaceshipInterior)
 PlayAmbience(RainyMood)
 PlaySong("Happy")
