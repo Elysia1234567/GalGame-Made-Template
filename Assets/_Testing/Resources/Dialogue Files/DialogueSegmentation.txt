@@ -3,7 +3,9 @@
 PlayAmbience(RainyMood)
 PlaySong("Happy")
 PlayVoice(exclamation)
+Hidedb()
 enter Raelin "Yes! It worked!"
+
 
 StopSong()
 StopAmbience()

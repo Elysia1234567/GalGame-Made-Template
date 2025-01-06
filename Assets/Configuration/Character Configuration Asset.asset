@@ -20,6 +20,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Elen
     alias: e
     characterType: 0
@@ -27,6 +31,10 @@ MonoBehaviour:
     dialogueColor: {r: 0.990566, g: 0.69834477, b: 0.48033106, a: 1}
     nameFont: {fileID: 11400000, guid: 1f9987afb925cfc46ad034ca97acfba8, type: 2}
     dialogueFont: {fileID: 11400000, guid: e94f9ea549dac6348b79fb33e9451f34, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Benjamin
     alias: ben
     characterType: 0
@@ -34,6 +42,10 @@ MonoBehaviour:
     dialogueColor: {r: 0.50195795, g: 0.9433962, b: 0.8362718, a: 1}
     nameFont: {fileID: 11400000, guid: a6a9963a494a04c47bfb712ccfd23da3, type: 2}
     dialogueFont: {fileID: 11400000, guid: d22ea559779c55a4cbbc1aae11309bf6, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Raelin
     alias: r
     characterType: 2
@@ -41,6 +53,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 2
   - name: Female Student 2
     alias: fs2
     characterType: 1
@@ -48,6 +64,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Generic
     alias: gen
     characterType: 2
@@ -55,6 +75,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Mao
     alias: mao
     characterType: 3
@@ -62,6 +86,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Natori
     alias: nat
     characterType: 3
@@ -69,6 +97,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Rice
     alias: ri
     characterType: 3
@@ -76,6 +108,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Koharu
     alias: ko
     characterType: 3
@@ -83,6 +119,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
   - name: Maria
     alias: ma
     characterType: 4
@@ -90,3 +130,7 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 22
+    dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
