@@ -1,11 +1,19 @@
 
-
+SetLayerMedia(background Nebula),SetLayerMedia(background 1 SpaceshipInterior)
 PlayAmbience(RainyMood)
 PlaySong("Happy")
 PlayVoice(exclamation)
-Hidedb()
-enter Raelin "Yes! It worked!"
+[wait]HideUI(-spd 0.75)
 
+wait()
+
+[wait]ShowUI( )
+enter Raelin "Yes! It worked!"
+[wait]HideUI(-spd 0.75)
+
+wait()
+
+[wait]ShowUI( )
 
 StopSong()
 StopAmbience()
@@ -21,7 +29,7 @@ stopsfx(thunder_strong_01)
 
 wait(1)
 
-SetLayerMedia(background Nebula),SetLayerMedia(background 1 SpaceshipInterior)
+
 
 CreateCharacter(Raelin -e true -i true)
 

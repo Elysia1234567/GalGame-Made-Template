@@ -16,7 +16,7 @@ namespace COMMANDS
         private static string[] PARAM_CHANNEL = new string[] { "-c", "-channel" };
         private static string[] PARAM_IMMEDIATE = new string[] { "-i", "-immediate" };
         private static string[] PARAM_START_VOLUME = new string[] { "-sv", "-startvolume" };
-        private static string[] PARAM_SONG = new string[] { "-s", "-song" };
+        private static string[] PARAM_SONG = new string[] { "-so", "-song" };
         private static string[] PARAM_AMBIENCE = new string[] { "-a", "-ambience" };
 
         new public static void Extend(CommandDatabase database)

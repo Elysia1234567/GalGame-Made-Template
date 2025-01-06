@@ -15858,6 +15858,7 @@ MonoBehaviour:
       root: {fileID: 965789984}
       nameText: {fileID: 2003694749}
     dialogueText: {fileID: 765177283}
+  mainCanvas: {fileID: 524031140}
   prompt: {fileID: 1618626853}
 --- !u!43 &279812725
 Mesh:
@@ -27915,6 +27916,7 @@ GameObject:
   - component: {fileID: 524031139}
   - component: {fileID: 524031138}
   - component: {fileID: 524031137}
+  - component: {fileID: 524031140}
   m_Layer: 5
   m_Name: Canvas -Main
   m_TagString: Untagged
@@ -28006,6 +28008,18 @@ Canvas:
   m_SortingLayerID: -1818604231
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &524031140
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524031135}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!43 &526795675
 Mesh:
   m_ObjectHideFlags: 0
