@@ -1,0 +1,1034 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.8f1c1 (4ec8ee1b2212) revision 5163246'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/101琉璃密录/银狼骇客集/西二在线/unity/项目/GalGameTeach
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61611
+Successfully changed project path to: C:/101琉璃密录/银狼骇客集/西二在线/unity/项目/GalGameTeach
+C:/101琉璃密录/银狼骇客集/西二在线/unity/项目/GalGameTeach
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22720] Host "[IP] 26.162.99.163 [Port] 0 [Flags] 2 [Guid] 2936978140 [EditorId] 2936978140 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BNOHHAC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22720] Host "[IP] 26.162.99.163 [Port] 0 [Flags] 2 [Guid] 2936978140 [EditorId] 2936978140 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BNOHHAC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 33.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/101琉璃密录/银狼骇客集/西二在线/unity/项目/GalGameTeach/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013769 seconds.
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 332 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (445ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.776 seconds
+Refreshing native plugins compatible for Editor in 10.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 1913ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1145ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (971ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 40.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (361.1 KB). Loaded Objects now: 6049.
+Memory consumption went from 220.9 MB to 220.5 MB.
+Total: 7.651300 ms (FindLiveObjects: 0.799500 ms CreateObjectMapping: 0.435800 ms MarkObjects: 6.053100 ms  DeleteObjects: 0.361500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2871.575120 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Masking/CubismMaskTexture.cs
+  artifactKey: Guid(b7106950a06563f4a893b4e239e2e1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Masking/CubismMaskTexture.cs using Guid(b7106950a06563f4a893b4e239e2e1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1c6bc6467b5dd7acd088d0030ce6db7') in 0.215914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Masking/CubismMaskTransform.cs
+  artifactKey: Guid(2f76bafab0883794088a79df49baa19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Masking/CubismMaskTransform.cs using Guid(2f76bafab0883794088a79df49baa19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b9081ce9435d2127b37d34fbc4846a5') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Live2D/Cubism/Samples/LookAt/Billboarder.cs
+  artifactKey: Guid(976eb92c106792946bf9acaf2ae87b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/LookAt/Billboarder.cs using Guid(976eb92c106792946bf9acaf2ae87b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd12a47228834f725758b925796e9a7eb') in 0.017174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Masking/ICubismMaskTextureCommandSource.cs
+  artifactKey: Guid(a6e7615d30096a2479e04d49a0f0d387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Masking/ICubismMaskTextureCommandSource.cs using Guid(a6e7615d30096a2479e04d49a0f0d387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51870d0a250e8bd1c1339a3c23a0a9c4') in 0.016601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Live2D/Cubism/Samples/HarmonicMotion/HarmonicMotion.unity
+  artifactKey: Guid(822097cf6f300b94396a6655ecc391e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/HarmonicMotion/HarmonicMotion.unity using Guid(822097cf6f300b94396a6655ecc391e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfc2dcfcb33e4c4b9776b1cd4a7a86c4') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Masking/IntExtensionMethods.cs
+  artifactKey: Guid(4c8e8b3875a97fc4283a37b2babf32df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Masking/IntExtensionMethods.cs using Guid(4c8e8b3875a97fc4283a37b2babf32df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee9ff3d4d5ae97573b541a9b3053fa8e') in 0.013562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Live2D/Cubism/Samples/Editor/ImportCustomization.cs
+  artifactKey: Guid(dffce8cbc48222b47aa3ae59c42b7ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Editor/ImportCustomization.cs using Guid(dffce8cbc48222b47aa3ae59c42b7ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf83a304a24b4b0df209bc04c2e9453') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Masking/CubismMaskMaskedJunction.cs
+  artifactKey: Guid(23f5922c5c1f90f41b68ea1b63492d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Masking/CubismMaskMaskedJunction.cs using Guid(23f5922c5c1f90f41b68ea1b63492d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0628fcf869c044a3fc6dc821c5bd61a') in 0.016669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Framework/MouthMovement/CubismAudioSamplingQuality.cs
+  artifactKey: Guid(fe9ba562aae52fe4396dc4b1e2f12412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Framework/MouthMovement/CubismAudioSamplingQuality.cs using Guid(fe9ba562aae52fe4396dc4b1e2f12412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ee370fef05af7fad92e2ae52063d78') in 0.014053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Live2D/Cubism/Framework/HarmonicMotion/CubismHarmonicMotionParameter.cs
+  artifactKey: Guid(aef61b2310c3336498fc218c4dffb25e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Framework/HarmonicMotion/CubismHarmonicMotionParameter.cs using Guid(aef61b2310c3336498fc218c4dffb25e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3aaf00002b2416f9f8849cce6d5c753') in 0.015073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Framework/LookAt/CubismLookTargetBehaviour.cs
+  artifactKey: Guid(0ddaae7cf31b83e4680e6b417b59f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Framework/LookAt/CubismLookTargetBehaviour.cs using Guid(0ddaae7cf31b83e4680e6b417b59f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2be13cfd9ceb7672875c94d73bf5459') in 0.017006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Fonts/upcii SDF.asset
+  artifactKey: Guid(1ea69e421feb5b640a4e6e1b08c7975a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Fonts/upcii SDF.asset using Guid(1ea69e421feb5b640a4e6e1b08c7975a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a1cd161a35fc24c51ba4f869988b294') in 0.120745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Live2D/Cubism/Core/ArrayExtensionMethods.cs
+  artifactKey: Guid(d1cdebf9f5030674387c78b2e57e8562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Core/ArrayExtensionMethods.cs using Guid(d1cdebf9f5030674387c78b2e57e8562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '039cd9c129e9f6bbd7236a3a6da539b6') in 0.014531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Rendering/ICubismBlendColorHandler.cs
+  artifactKey: Guid(5f32305574d255746b855b2ef328af3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/ICubismBlendColorHandler.cs using Guid(5f32305574d255746b855b2ef328af3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2aaf6ca2f0cc0f2f537fb0da9387594') in 0.017951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Editor/Live2D.Cubism.Editor.asmdef
+  artifactKey: Guid(e5d337e0b3581c343aafde08e6e1727e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Editor/Live2D.Cubism.Editor.asmdef using Guid(e5d337e0b3581c343aafde08e6e1727e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aefa9509e54f2110d2849086e7f544d') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Graphics/BG Images/06.jpg
+  artifactKey: Guid(098a54960be25c84194ad49608c88c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Graphics/BG Images/06.jpg using Guid(098a54960be25c84194ad49608c88c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fbc5d94468750bc89b56b3c6921c037') in 0.083324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Live2D/Cubism/Samples/Raycasting/RaycastHitDisplay.cs
+  artifactKey: Guid(130e9390e7f495a4a919c8b132a34b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Raycasting/RaycastHitDisplay.cs using Guid(130e9390e7f495a4a919c8b132a34b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ca0bb2c71ce5a08d2a28376218c2560') in 0.018456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Characters/Female Student 2/Images/female student 2 - upset.png
+  artifactKey: Guid(32dd9e88cd28cb145bbd0a11e0fa4e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Characters/Female Student 2/Images/female student 2 - upset.png using Guid(32dd9e88cd28cb145bbd0a11e0fa4e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65e8aeb27639c72edf4a4a83c860f12c') in 0.066013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Live2D/Cubism/Samples/Masking/MaskPreview.mat
+  artifactKey: Guid(cd77fb3f0d1cb9844bc828faa8fa167b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Masking/MaskPreview.mat using Guid(cd77fb3f0d1cb9844bc828faa8fa167b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6113fccffe4a6ac5aad43d63c44092c') in 0.015885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Plugins/Android/x86/libLive2DCubismCore.so
+  artifactKey: Guid(d7fd216861ac4144f9d200c7131f912d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Plugins/Android/x86/libLive2DCubismCore.so using Guid(d7fd216861ac4144f9d200c7131f912d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '481b8703ebf50791a1de82e11d2e0c5a') in 0.023438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Live2D/Cubism/Framework/Pose/Editor/Live2D.Cubism.Editor.asmref
+  artifactKey: Guid(337e75f5b4c031c4294afbc8c38dd1f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Framework/Pose/Editor/Live2D.Cubism.Editor.asmref using Guid(337e75f5b4c031c4294afbc8c38dd1f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f8f0f048757bf89d0d410250d44c29f') in 0.018613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Core/Dialogue/Data Containers/DL_DIALOGUE_DATA.cs
+  artifactKey: Guid(69e68f4142f04f148a1cc7b18fe736ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Core/Dialogue/Data Containers/DL_DIALOGUE_DATA.cs using Guid(69e68f4142f04f148a1cc7b18fe736ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ca1083aa44c7269aaa171c5bbf1502d') in 0.015993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Masking/MaskTexturePreview.cs
+  artifactKey: Guid(0a6911bea7fd26c49bc73bbd0c1c4fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Masking/MaskTexturePreview.cs using Guid(0a6911bea7fd26c49bc73bbd0c1c4fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07a3f33f902cb237b8d696b132686cc9') in 0.017505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Live2D/Cubism/Plugins/HarmonyOS/armeabi-v7a/libLive2DCubismCore.so
+  artifactKey: Guid(dd1e3920198a128468ae2061ee93aa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Plugins/HarmonyOS/armeabi-v7a/libLive2DCubismCore.so using Guid(dd1e3920198a128468ae2061ee93aa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67d7bef85a13aca0db7b5975e473d71') in 0.019755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Live2D/Cubism/Samples/Raycasting/Description.md
+  artifactKey: Guid(13d11fb76b46cda49b56632c893c303c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Raycasting/Description.md using Guid(13d11fb76b46cda49b56632c893c303c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '094280628ea968305144650a9a7cf9a4') in 0.034029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Samples/PerspectiveCamera/Description.md
+  artifactKey: Guid(597775b2b38f4e44187114ed88e319b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/PerspectiveCamera/Description.md using Guid(597775b2b38f4e44187114ed88e319b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a02a1f7c70344b7654412ba80a122fdd') in 0.029587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/Core/Characters/Character Types/Character_Text.cs
+  artifactKey: Guid(4661b68cf24e47d48a95178a567b5d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Core/Characters/Character Types/Character_Text.cs using Guid(4661b68cf24e47d48a95178a567b5d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71957846ba391cedb7ae55ab7c001405') in 0.017129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Live2D/Cubism/Samples/Raycasting/Raycasting.unity
+  artifactKey: Guid(a6640aff93e523e41ab5f43ed853091a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Raycasting/Raycasting.unity using Guid(a6640aff93e523e41ab5f43ed853091a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8ee649fd5464bde379ed9370046780b') in 0.014332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Framework/Expression/Editor/Live2D.Cubism.Editor.asmref
+  artifactKey: Guid(c577e6f892ebd3c43a2ebf539ca10a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Framework/Expression/Editor/Live2D.Cubism.Editor.asmref using Guid(c577e6f892ebd3c43a2ebf539ca10a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a21b14f1b857557104e91c98252341b') in 0.016105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Characters/Female Student 2/Images/female student 2 - surprised.png
+  artifactKey: Guid(c76866b235f5a6d439dc6ef13d8e4ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Characters/Female Student 2/Images/female student 2 - surprised.png using Guid(c76866b235f5a6d439dc6ef13d8e4ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6256f30d1a752f561c1b52444a83595e') in 0.053817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Motion/CubismMotionPreview.cs
+  artifactKey: Guid(2306d75f08d7b8b47823c8a66e70007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Motion/CubismMotionPreview.cs using Guid(2306d75f08d7b8b47823c8a66e70007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f6773c351ccd48d207dc13f7335da24') in 0.013815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Testing/Scripts/Testing_Architect.cs
+  artifactKey: Guid(0cbd667dab32e1f418757ea5903f8883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Testing/Scripts/Testing_Architect.cs using Guid(0cbd667dab32e1f418757ea5903f8883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e52cfab02cd3ac39d69c1eab2005cec') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Characters/Generic/Character - [Generic].prefab
+  artifactKey: Guid(adef569bee20a1743a05eea0a98443fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Characters/Generic/Character - [Generic].prefab using Guid(adef569bee20a1743a05eea0a98443fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ea18cdbe9a97e001c8c6abbc756b75e') in 0.032979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Rendering/ArrayExtensionMethods.cs
+  artifactKey: Guid(b385bef6ae0a16446b838f4bcd8b423c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/ArrayExtensionMethods.cs using Guid(b385bef6ae0a16446b838f4bcd8b423c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec0e2f7bb1a448b0225ca74490c91985') in 0.022292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.asset
+  artifactKey: Guid(0cd25900b6821d346824476d7529af29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.asset using Guid(0cd25900b6821d346824476d7529af29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fdbc1701eed95e18ba4da1b45276bef') in 0.017812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Expression/Expression.unity
+  artifactKey: Guid(b02aa818d25bae948a64d0f26ee73928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Expression/Expression.unity using Guid(b02aa818d25bae948a64d0f26ee73928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2b5a9485c215d0dbeb75cd4ad06689e') in 0.011251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.controller
+  artifactKey: Guid(b7140bd2c8fbcf15998c2eba27e83c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.controller using Guid(b7140bd2c8fbcf15998c2eba27e83c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec0831ac8e1c8f641485e57f0c02dfa0') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Demo/Description.md
+  artifactKey: Guid(5fcde3242c64d0a4784c312bea9bb6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Demo/Description.md using Guid(5fcde3242c64d0a4784c312bea9bb6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c5d3349418215144f57f3fc2ce0155a') in 0.022270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/Rice.fadeMotionList.asset
+  artifactKey: Guid(c11a944c588b69b49870a6700fe53260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/Rice.fadeMotionList.asset using Guid(c11a944c588b69b49870a6700fe53260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d085edd47d3e459472a2d8b66bf76a3') in 0.020288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/Mao.controller
+  artifactKey: Guid(d32ecaadf81b10094b06ee0e44450f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/Mao.controller using Guid(d32ecaadf81b10094b06ee0e44450f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e18916dffdb147dc4c685f5d27ab686') in 0.064240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/Natori.asset
+  artifactKey: Guid(ec42dac546b921a41840dd0dfa18bf80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/Natori.asset using Guid(ec42dac546b921a41840dd0dfa18bf80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a774ce8c0795c8a13ef8f879ad6681c3') in 0.025218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/Rice.cdi3.json
+  artifactKey: Guid(88a0fa83151b6ae4996f37ad8730885c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/Rice.cdi3.json using Guid(88a0fa83151b6ae4996f37ad8730885c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61bd2354a646c4c9788cf72bc320c443') in 0.026052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.prefab
+  artifactKey: Guid(6f0e06de47dbcee4c92ffcb3cbd11a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.prefab using Guid(6f0e06de47dbcee4c92ffcb3cbd11a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa94bb47932d96a5e43aecf9c2ebc7e7') in 0.070428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 795
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/Natori.fadeMotionList.asset
+  artifactKey: Guid(708efa1768927d848a81aba8ba77ed01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/Natori.fadeMotionList.asset using Guid(708efa1768927d848a81aba8ba77ed01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1101653d80648fd0f98c26f64cc2e31') in 0.028803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.fade.asset
+  artifactKey: Guid(ebaadf16121c7a848aa91a4d7d705cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.fade.asset using Guid(ebaadf16121c7a848aa91a4d7d705cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aba745f73bac10b13e60315a1ecbb115') in 0.018404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.anim
+  artifactKey: Guid(49fbef81965b33d43b09d4aaec84ba1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.anim using Guid(49fbef81965b33d43b09d4aaec84ba1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59e298fa5a468145b5be941bc58b0624') in 0.024895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Live2D/Cubism/Plugins/Experimental/UWP/x64/Live2DCubismCore.dll
+  artifactKey: Guid(37d9ccd01691a1b4c946e0c95ec9bcc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Plugins/Experimental/UWP/x64/Live2DCubismCore.dll using Guid(37d9ccd01691a1b4c946e0c95ec9bcc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f285dbabedfac2d90e792d4198d6e658') in 0.017937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_08.exp3.json
+  artifactKey: Guid(00a12a545e4fb384d95b650bfd3e4f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_08.exp3.json using Guid(00a12a545e4fb384d95b650bfd3e4f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4bf89fc398ba12d8e5f2b55a2c2a7a4') in 0.019799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_03.exp3.json
+  artifactKey: Guid(505171c652a5d5848b236856387f9ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_03.exp3.json using Guid(505171c652a5d5848b236856387f9ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44d43624ea4fd83146b9f3469009f4f5') in 0.021488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Koharu/Animation/face01.fade.asset
+  artifactKey: Guid(4b1bccbeb4006f44891835fc56c0d852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Koharu/Animation/face01.fade.asset using Guid(4b1bccbeb4006f44891835fc56c0d852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '581174f4faaf4ba7f16032bb7b616315') in 0.015012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Description.md
+  artifactKey: Guid(48b0bc568c07b8b4db193348e8634582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Description.md using Guid(48b0bc568c07b8b4db193348e8634582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eec77ce26ae0f887a740a9c8fc593f3') in 0.022575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/MotionFade/Description.ja.md
+  artifactKey: Guid(c273fe833593743fa857134b8751f1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/MotionFade/Description.ja.md using Guid(c273fe833593743fa857134b8751f1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acc370c7f38e861a958d2a813217901c') in 0.029550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Koharu/Animation/face02.anim
+  artifactKey: Guid(c0c94fc29de6457428c1a846499aea52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Koharu/Animation/face02.anim using Guid(c0c94fc29de6457428c1a846499aea52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07d1119caa573821936a7435d67e4b3d') in 0.019564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_04.exp3.json
+  artifactKey: Guid(9d7af2b16bdb49a43b999b83e9563f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_04.exp3.json using Guid(9d7af2b16bdb49a43b999b83e9563f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fb83403b3a1c36d653d9bea7d229030') in 0.025770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_06.exp3.json
+  artifactKey: Guid(dbe89d80814218b46acce376eafce8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_06.exp3.json using Guid(dbe89d80814218b46acce376eafce8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '431a2278cd56739ced8cb56e11ab255b') in 0.025959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Description.ja.md
+  artifactKey: Guid(491e549a4fc8247f093a372c6fb7415b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Description.ja.md using Guid(491e549a4fc8247f093a372c6fb7415b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8622c4c904b6b128d9d35f85f6a8ce6d') in 0.028576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scripts/Core/Commands/Database/Extensions/CMD_Database Extension_Audio.cs
+  artifactKey: Guid(92ad4f633acc29b409c4121334767c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Core/Commands/Database/Extensions/CMD_Database Extension_Audio.cs using Guid(92ad4f633acc29b409c4121334767c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0360edc1000df160ecca5df87b5e4333') in 0.017430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Resources/Fonts/Mats/MainMenuText.mat
+  artifactKey: Guid(1f05ea34b7e2854499388e5532c3fd5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Fonts/Mats/MainMenuText.mat using Guid(1f05ea34b7e2854499388e5532c3fd5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cc9f52cbfc03a23770fa0fda2dd87d5') in 0.023052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Natori.controller
+  artifactKey: Guid(bbbf7b31a9b545e4c94fefce4aaeef7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/OriginalWorkflow/Pose/Natori.controller using Guid(bbbf7b31a9b545e4c94fefce4aaeef7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '450650f0d55180e72e00faff8a75c6cf') in 0.027331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/Mao.model3.json
+  artifactKey: Guid(0c46c39789864e341a060e14e46e59c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/Mao.model3.json using Guid(0c46c39789864e341a060e14e46e59c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c16c42cd71e1813a99355b870aa36ff') in 0.023485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7323d6f3c6c330a3b3fc2f010731b613') in 0.032394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.motion3.json
+  artifactKey: Guid(502c6308789a96849bd2ff69ddefaff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.motion3.json using Guid(502c6308789a96849bd2ff69ddefaff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd0d25556f2cb012e196174bf0fad184') in 0.024134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_10.exp3.json
+  artifactKey: Guid(d68bec094897c4349967e29fd06229cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_10.exp3.json using Guid(d68bec094897c4349967e29fd06229cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cd3ae22e763fdc352ada10dfb7d9d77') in 0.022485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_08.exp3.json
+  artifactKey: Guid(08fca5d8aa9deb14993a0a75c4d03c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_08.exp3.json using Guid(08fca5d8aa9deb14993a0a75c4d03c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e45c4089d7ca11f877b00274c9e5d5c') in 0.022431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.anim
+  artifactKey: Guid(e3b4edce3b7937f43ae503295496f3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.anim using Guid(e3b4edce3b7937f43ae503295496f3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17a5d39fd7db323b23ff5515da19cff0') in 0.027170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.anim
+  artifactKey: Guid(287a61bdd64593b459a00a7a172cb7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.anim using Guid(287a61bdd64593b459a00a7a172cb7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f91a8c4077bfbfa74432eaf27489de9e') in 0.027938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_00.exp3.asset
+  artifactKey: Guid(e18904c67459bd14587f57960b84cd35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_00.exp3.asset using Guid(e18904c67459bd14587f57960b84cd35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5d9dbc22aa4fbe35d23e3cb2e722a9d') in 0.016300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.fade.asset
+  artifactKey: Guid(5e1fd12e78197be4c9ce4a13659fa2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.fade.asset using Guid(5e1fd12e78197be4c9ce4a13659fa2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d443db02a23c3f206d158a3688d21cf') in 0.017787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.fade.asset
+  artifactKey: Guid(cd5d32e8b5cd9d74d98c36e8068cab64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.fade.asset using Guid(cd5d32e8b5cd9d74d98c36e8068cab64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55b3808c38a17d8048cac502cdc2cc4f') in 0.017681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.fade.asset
+  artifactKey: Guid(145e4856478ab1540affc40745dbea64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.fade.asset using Guid(145e4856478ab1540affc40745dbea64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37b8903c6881a08a5b59465b8990c22c') in 0.016189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.motion3.json
+  artifactKey: Guid(8b4b81d5cb176924fac7a45e64c5b2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.motion3.json using Guid(8b4b81d5cb176924fac7a45e64c5b2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48d8f5c170b434dc4adbe1f60a45af95') in 0.021157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.anim
+  artifactKey: Guid(e3f365ee9df621246b8924edaf130f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.anim using Guid(e3f365ee9df621246b8924edaf130f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23d4f905aa5f0a0f14848c64e687f1fd') in 0.025109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.anim
+  artifactKey: Guid(1e16baedc618e2549b2322134c2f8f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.anim using Guid(1e16baedc618e2549b2322134c2f8f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1950b8bc4fbf7d29c8ebc9c567f469e9') in 0.030862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_04.exp3.json
+  artifactKey: Guid(e5a7a05b13080de43b7c16cf1bc3d2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_04.exp3.json using Guid(e5a7a05b13080de43b7c16cf1bc3d2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12aeee73517563e8875c4990ac69d088') in 0.023988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.anim
+  artifactKey: Guid(807de10c929988d4da6edd0b53285cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.anim using Guid(807de10c929988d4da6edd0b53285cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fddd228746e8c167f8aa3b97918dab7') in 0.024899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.fade.asset
+  artifactKey: Guid(1ffd90dc3b646144697fcde104b90b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.fade.asset using Guid(1ffd90dc3b646144697fcde104b90b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '085fd5f0d7bb20aaa65c750311c29a70') in 0.022634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.fade.asset
+  artifactKey: Guid(1087fe497bde9c041a011b91e8351197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.fade.asset using Guid(1087fe497bde9c041a011b91e8351197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f31a42874e6c6a2890e41c3cb431b1dc') in 0.019719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitAdditive.mat
+  artifactKey: Guid(3a847d6491645bf408c73acd54ba432f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitAdditive.mat using Guid(3a847d6491645bf408c73acd54ba432f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15123351a02b72f063d0127a63f78dd5') in 0.024633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.anim
+  artifactKey: Guid(452a6f3ab61a13e44a721d9f461f2bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.anim using Guid(452a6f3ab61a13e44a721d9f461f2bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a69dc41a32704e0421acdb0a28842dab') in 0.022492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.fade.asset
+  artifactKey: Guid(b0e0c6664b3e31c45bfe689cadca48ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.fade.asset using Guid(b0e0c6664b3e31c45bfe689cadca48ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ebdf4dd569af8df1459786e4654893a') in 0.017315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.anim
+  artifactKey: Guid(f4b69eaf508ba764d8e9d9446f5038a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.anim using Guid(f4b69eaf508ba764d8e9d9446f5038a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '876bae0c152f626db4c299e486a50ea4') in 0.022721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitMultiplyMasked.mat
+  artifactKey: Guid(f584ea70f6d6f9844b2e61bb5fee385f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitMultiplyMasked.mat using Guid(f584ea70f6d6f9844b2e61bb5fee385f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19d9af6a851c313de0afabc19a1d7ef0') in 0.019279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitMultiplyMaskedCulling.mat
+  artifactKey: Guid(d69deb3dd47135640b39c0376dc33ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/UnlitMultiplyMaskedCulling.mat using Guid(d69deb3dd47135640b39c0376dc33ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6872d8e75659e8d389c815c37c9f226d') in 0.019888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.motion3.json
+  artifactKey: Guid(b48839e173748204d8a07d6a3f9c643e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.motion3.json using Guid(b48839e173748204d8a07d6a3f9c643e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b49f171252c81aa12307e48702879152') in 0.021365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/Unlit.mat
+  artifactKey: Guid(dd6873ae7e203b74bb668af926c791d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Rendering/Resources/Live2D/Cubism/Materials/Unlit.mat using Guid(dd6873ae7e203b74bb668af926c791d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72fa6695c97aefbc11dafe774ced046a') in 0.017181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.anim
+  artifactKey: Guid(d8c60aef31bbe764abe30228477589b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.anim using Guid(d8c60aef31bbe764abe30228477589b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffcd70f87f8bbe91f1b120a3118a529a') in 0.025431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56c8d6093c1b6a68a7177b5f8c54b3a0') in 0.025277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Graphics/BG Images/bg library.png
+  artifactKey: Guid(b10a0913fac38ed489cbf88dfd48de2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Graphics/BG Images/bg library.png using Guid(b10a0913fac38ed489cbf88dfd48de2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12b664bcd460a3282f1d38f87117df53') in 0.045214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Clipping/ClippingMaskTexture.asset
+  artifactKey: Guid(0d8f35dd6d4f71d439a73efdb06149a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Clipping/ClippingMaskTexture.asset using Guid(0d8f35dd6d4f71d439a73efdb06149a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38c65731f41c67c07826d142cc9ed65b') in 0.019486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/Graphics/BG Images/12.jpg
+  artifactKey: Guid(7ba5e1720962f4a4da9cbd769f784a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Graphics/BG Images/12.jpg using Guid(7ba5e1720962f4a4da9cbd769f784a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2445acc2a2a37d0e28e4310b54248247') in 0.045083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Testing/Scripts/Audio Testing.cs
+  artifactKey: Guid(31d9fddea6e305d4dbb692fb64e1c790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Testing/Scripts/Audio Testing.cs using Guid(31d9fddea6e305d4dbb692fb64e1c790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cd8b6ba3802aa412586c5e428224656') in 0.014811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d2842fbde62906b70ef67dbba7ef3da') in 0.017887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Characters/Raelin/Character - [Raelin].prefab
+  artifactKey: Guid(6ce7be681f1e4fe4a9b46b9ded5d0cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Characters/Raelin/Character - [Raelin].prefab using Guid(6ce7be681f1e4fe4a9b46b9ded5d0cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f524ae025669a28f6af699d831595af0') in 0.016590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Live2D/Cubism/Samples/Models/Mao/Mao.pose3.json
+  artifactKey: Guid(eef38c6299532734b810de5edc13a48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Live2D/Cubism/Samples/Models/Mao/Mao.pose3.json using Guid(eef38c6299532734b810de5edc13a48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aed704ef31cebf68c86781259e11b3bd') in 0.020796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
