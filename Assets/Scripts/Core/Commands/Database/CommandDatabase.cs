@@ -30,7 +30,7 @@ namespace COMMANDS
             //    Debug.LogWarning($"在指令为{commandName}时，数据库中有{names}");
             //}
             //Debug.LogWarning("结束");
-            Debug.LogWarning(database.ContainsKey("highlight"));
+            //Debug.LogWarning(database.ContainsKey("highlight"));
             if (!database.ContainsKey(commandName))
             {
                 Debug.LogError($"指令不存在数据库中'{commandName}'");

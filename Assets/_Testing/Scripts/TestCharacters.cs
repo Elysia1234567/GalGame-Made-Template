@@ -18,7 +18,23 @@ namespace TESTING
             //Character Elen = CharacterManager.instance.CreateCharacter("Elen");
             //Character Stella = CharacterManager.instance.CreateCharacter("Stella");
             //Character Raelin = CharacterManager.instance.CreateCharacter("Raelin");
-            StartCoroutine(Test());
+            StartCoroutine(Test7());
+        }
+
+        IEnumerator Test7()
+        {
+            Character Monk = CreateCharacter("Monk as Generic");
+
+            yield return Monk.Say("Normal dialogue configuration");
+
+            Monk.SetDialogueColor(Color.red);
+            Monk.SetNameColor(Color.blue);
+
+            yield return Monk.Say("Customized dialogue here");
+
+            Monk.ResetConfigurationData();
+
+            yield return Monk.Say("I should be back to normal");
         }
 
         IEnumerator Test()

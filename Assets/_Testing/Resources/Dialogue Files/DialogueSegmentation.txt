@@ -1,3 +1,4 @@
+CreateCharacter("Monk as Generic" -e true),Monk.SetSprite("Monk")
 
 Narrator "And so begin the adventures of <mainChar>"
 

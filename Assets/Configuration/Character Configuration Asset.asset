@@ -53,10 +53,10 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
-    nameFontSize: 22
-    dialogueFontSize: 18
+    nameFontSize: 38
+    dialogueFontSize: 36
     nameFontScale: 1
-    dialogueFontScale: 2
+    dialogueFontScale: 1
   - name: Female Student 2
     alias: fs2
     characterType: 1
@@ -75,8 +75,8 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
-    nameFontSize: 22
-    dialogueFontSize: 18
+    nameFontSize: 38
+    dialogueFontSize: 36
     nameFontScale: 1
     dialogueFontScale: 1
   - name: Mao
@@ -132,5 +132,16 @@ MonoBehaviour:
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     nameFontSize: 22
     dialogueFontSize: 18
+    nameFontScale: 1
+    dialogueFontScale: 1
+  - name: <mainChar>
+    alias: main
+    characterType: 0
+    nameColor: {r: 1, g: 0.23820345, b: 0.032075405, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
+    nameFontSize: 38
+    dialogueFontSize: 36
     nameFontScale: 1
     dialogueFontScale: 1

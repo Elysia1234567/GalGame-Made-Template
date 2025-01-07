@@ -57,19 +57,26 @@ namespace CHARACTERS
 
         public Sprite GetSprite(string spriteName)
         {
-            //Debug.LogWarning($"正在解析{spriteName}");
-            if(config.characterType==CharacterType.SpriteSheet)
+            Debug.LogWarning($"正在解析{spriteName}");
+            if (config.characterType==CharacterType.SpriteSheet)
             {
                 string[] data = spriteName.Split(SPRITESHEET_TEX_SPRITE_DELIMITTER);
                 Sprite[] spriteArray = new Sprite[0];
 
-                if(data.Length==2)
+                Debug.LogWarning(artAssetDirectory);
+                foreach (string s in data)
                 {
-                    string textureName = data[0];
-                    spriteName = data[1];
-                     spriteArray = Resources.LoadAll<Sprite>($"{artAssetDirectory}/{textureName}");
 
-                   
+                    Debug.LogWarning("名字拆分" + s);
+                }
+                Debug.LogWarning($"data的长度是{data.Length}");
+                if (data.Length==2)
+                {
+                    string textureName = data[0].Trim();
+                    spriteName = data[1].Trim();
+                    spriteArray = Resources.LoadAll<Sprite>($"{artAssetDirectory}/{textureName}");
+                    Debug.LogWarning($"图片数组为{spriteArray},它的路径是{artAssetDirectory}/{textureName}");
+
                 }
                 else
                 {

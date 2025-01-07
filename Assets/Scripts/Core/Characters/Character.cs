@@ -80,7 +80,7 @@ namespace CHARACTERS
         public void SetNameColor(Color color) => config.nameColor = color;
         public void SetDialogueColor(Color color) => config.dialogueColor = color;
 
-        public void ResetConfigurationData() => config = CharacterManager.instance.GetCharacterConfig(name);
+        public void ResetConfigurationData() => config = CharacterManager.instance.GetCharacterConfig(name,getOriginal:true);
         public void UpdateTextCustomizationsOnScreen() => dialogueSystem.ApplySpeakerDataToDialogueContainer(config);
 
         public virtual Coroutine Show(float speedMultiplier=1f)//写这种协程的意义就是交给管理器去跑，同时要写一个IE
