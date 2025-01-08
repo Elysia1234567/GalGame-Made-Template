@@ -1,4 +1,5 @@
 using CHARACTERS;
+using DIALOGUE;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -479,7 +480,10 @@ namespace COMMANDS
                 Debug.LogError("没有动画名字参数");
                 return;
             }
-            if(parameters.TryGetValue(PARAM_STATE, out state))
+            //CommandManager.instance.AddTerminationActionToCurrentProcess(() => { return; });
+            //if (DialogueSystem.instance.isSkip)
+            //    character.QuickAnimate();
+            if (parameters.TryGetValue(PARAM_STATE, out state))
             {
                 character.Animate(animateName,state);
             }

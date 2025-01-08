@@ -26,6 +26,7 @@ namespace DIALOGUE
 
         public DialogueContinuePrompt prompt;
         private CanvasGroupController cgController;
+        //public bool isSkip=>autoReader.skip;
         private void Awake()
         {
             if (instance == null)

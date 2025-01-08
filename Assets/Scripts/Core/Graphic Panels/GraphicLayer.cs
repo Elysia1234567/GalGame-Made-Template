@@ -10,7 +10,7 @@ public class GraphicLayer
     public Transform panel;
 
     public GraphicObject currentGraphic= null;
-    private List<GraphicObject> oldGraphics=new List<GraphicObject> ();
+    public List<GraphicObject> oldGraphics=new List<GraphicObject> ();
     // Start is called before the first frame update
     public Coroutine SetTexture(string filePath,float transitionSpeed=1f,Texture blendingTexture=null,bool immediate=false)
     {

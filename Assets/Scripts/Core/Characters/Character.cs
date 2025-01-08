@@ -86,7 +86,7 @@ namespace CHARACTERS
         public virtual Coroutine Show(float speedMultiplier=1f)//写这种协程的意义就是交给管理器去跑，同时要写一个IE
         {
             if (isRevealing)
-                return co_revealing;
+                characterManager.StopCoroutine(co_revealing);
             if(isHiding)
                 characterManager.StopCoroutine(co_hiding);
 
@@ -98,8 +98,8 @@ namespace CHARACTERS
         public virtual Coroutine Hide(float speedMultiplier=1f)
         {
             if(isHiding)
-                return co_hiding;
-            if(isRevealing)
+                characterManager.StopCoroutine(co_hiding);
+            if (isRevealing)
                 characterManager.StopCoroutine(co_revealing);
 
             co_hiding = characterManager.StartCoroutine(ShowingOrHiding(false,speedMultiplier));
@@ -179,9 +179,7 @@ namespace CHARACTERS
 
         public Coroutine Highlight(float speed=1f,bool immediate =false)
         {
-            if(isHighlighting)
-                return co_highlighting;
-            if(isUnHighlighting)
+            if(isHighlighting||isUnHighlighting)
                 characterManager.StopCoroutine(co_highlighting);
             highlighted = true;
             co_highlighting = characterManager.StartCoroutine(Highlighting(speed,immediate));
@@ -191,9 +189,7 @@ namespace CHARACTERS
 
         public Coroutine UnHighlight(float speed=1f,bool immediate =false)
         {
-            if (isUnHighlighting)
-                return co_highlighting;
-            if (isHighlighting)
+            if (isHighlighting || isUnHighlighting)
                 characterManager.StopCoroutine(co_highlighting);
             highlighted = false;
             co_highlighting = characterManager.StartCoroutine(Highlighting( speed,immediate));
@@ -291,5 +287,9 @@ namespace CHARACTERS
             return;
         }
 
+        //public void QuickAnimate()
+        //{
+        //    animator.speed = 5f;
+        //}
     }
 }
