@@ -64,8 +64,8 @@ MonoBehaviour:
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
     dialogueFont: {fileID: 11400000, guid: 2fd5f1eec90afa348b53598d3e6c2d5b, type: 2}
-    nameFontSize: 22
-    dialogueFontSize: 18
+    nameFontSize: 38
+    dialogueFontSize: 36
     nameFontScale: 1
     dialogueFontScale: 1
   - name: Generic

@@ -10,6 +10,8 @@ namespace COMMANDS
     public class CMD_DatabaseExtension_Characters : CMD_DatabaseExtension
     {
         private static string[] PARAM_ENABLE => new string[] { "-e", "-enable" };
+        private static string[] PARAM_ANIMATE => new string[] { "-a", "-animate" };
+        private static string[] PARAM_STATE => new string[] { "-st", "-state" };
         private static string[] PARAM_IMMEDIATE => new string[] { "-i", "-immediate" };
         private static string[] PARAM_ONLY => new string[] { "-o", "-only" };
         private static string[] PARAM_SPEED => new string[] { "-spd", "-speed" };
@@ -38,7 +40,9 @@ namespace COMMANDS
             baseCommands.AddCommand("setColor",new Func<string[],IEnumerator>(SetColor));
             baseCommands.AddCommand("highlight",new Func<string[],IEnumerator>(Highlight));
             baseCommands.AddCommand("unhighlight", new Func<string[], IEnumerator>(UnHighlight));
-
+            baseCommands.AddCommand("faceright", new Func<string[], IEnumerator>(FaceRight));
+            baseCommands.AddCommand("faceleft", new Func<string[], IEnumerator>(FaceLeft));
+            baseCommands.AddCommand("animate", new Action<string[]>(Animate));
             CommandDatabase spriteCommands = CommandManager.instance.CreateSubDatabase(CommandManager.DATABASE_CHARACTERS_SPRITE);
             spriteCommands.AddCommand("setsprite",new Func<string[],IEnumerator>(SetSprite));
         }
@@ -427,6 +431,64 @@ namespace COMMANDS
                 CommandManager.instance.AddTerminationActionToCurrentProcess(() => { character?.UnHighlight(immediate: true); });
                 yield return character.UnHighlight();
             }
+        }
+
+        public static IEnumerator FaceLeft(string[] data)
+        {
+            Character character = CharacterManager.instance.GetCharacter(data[0], createIfDoesNotExist: false) as Character;
+            if (character == null)
+                yield break;
+            float speed = 1f;
+            bool immediate = false;
+
+            var parameters = ConvertDataToParameters(data, startingIndex: 1);
+
+            parameters.TryGetValue(PARAM_SPEED, out speed, defaultValue: 1f);
+            parameters.TryGetValue(PARAM_IMMEDIATE, out immediate, defaultValue: false);
+
+            yield return character.FaceLeft(speed, immediate);
+        }
+
+        public static IEnumerator FaceRight(string[] data)
+        {
+            Character character = CharacterManager.instance.GetCharacter(data[0],createIfDoesNotExist: false) as Character;
+            if(character == null)
+                yield break;
+            float speed = 1f;
+            bool immediate = false;
+
+            var parameters = ConvertDataToParameters(data, startingIndex: 1);
+
+            parameters.TryGetValue(PARAM_SPEED, out speed, defaultValue: 1f);
+            parameters.TryGetValue(PARAM_IMMEDIATE,out  immediate, defaultValue: false);
+
+            yield return character.FaceRight(speed, immediate);
+        }
+
+        public static void Animate(string[] data)
+        {
+            Character character = CharacterManager.instance.GetCharacter(data[0], createIfDoesNotExist: false);
+            if (character == null)
+                 return;
+            string animateName;
+            bool state;
+            var parameters=ConvertDataToParameters(data, startingIndex: 1);
+
+            if(!parameters.TryGetValue(PARAM_ANIMATE, out animateName))
+            {
+                Debug.LogError("没有动画名字参数");
+                return;
+            }
+            if(parameters.TryGetValue(PARAM_STATE, out state))
+            {
+                character.Animate(animateName,state);
+            }
+            else
+            {
+                character.Animate(animateName);
+            }
+            return;
+
         }
 
         public static IEnumerator SetSprite(string[] data)

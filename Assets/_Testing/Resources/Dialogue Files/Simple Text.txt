@@ -5,7 +5,7 @@ Stella.Show(),Raelin.Show()
 
 Stella "Finally here!"
 
-Stella.Move(0.2 -spd 0.3),Stella.FaceRight()
+Stella.Move(0.2 -spd 0.3)
 Stella "Hey,Raelin - you think this place has an inn?"
 
 Raelin.SetSprite(A2 -l 0 -spd 1),Raelin.SetSprite(A_Scold -l 1 -spd 1)
@@ -24,13 +24,15 @@ Raelin.FaceRight()
 Raelin "It's a lodge! Let's go!"
 [wait]HideDB(-spd 0.1)
 
-Stella.Move(1.5 -spd 2),Raelin.Move(1.5 -spd 2),Raelin.FaceRight() ,Stella.Hide(),Raelin.Hide()
+Stella.Move(1.5 -spd 2),Raelin.Move(1.5 -spd 2)
+wait(1)
+Stella.Hide(),Raelin.Hide()
 wait(0.75)
 ClearLayerMedia(background),wait(1)
 StopSong(),StopAmbience()
 wait(1)
 
-SetLayerMedia(background inn_night_i),PlaySong(Calm2)
+SetLayerMedia(background  -m "BG Inn_night"),PlaySong(Calm2)
 Stella.Show(),Raelin.Show(),Stella.SetPosition(-0.5),Raelin.SetPosition(-0.5)
 Stella.Move(0.3 -spd 1.5),Raelin.Move(0 -spd 1.5)
 wait(1)
