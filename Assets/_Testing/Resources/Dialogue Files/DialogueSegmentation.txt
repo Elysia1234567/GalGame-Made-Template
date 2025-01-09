@@ -1,9 +1,9 @@
 
 narrator "What is your name?"
 
-input "What is your Name,Burh"
+input "What is your Name,Burh!"
 
-narrator "Nice to meet you,<mainChar>"
+narrator "Nice to meet you,<input>"
 
 PlayAmbience(RainyMood),PlaySong("Calm" -v 0.4)
 SetLayerMedia(background villagenight)
