@@ -1,3 +1,10 @@
+
+narrator "What is your name?"
+
+input "What is your Name,Burh"
+
+narrator "Nice to meet you,<mainChar>"
+
 PlayAmbience(RainyMood),PlaySong("Calm" -v 0.4)
 SetLayerMedia(background villagenight)
 CreateCharacter("Stella as Female Student 2"),CreateCharacter(Raelin),Stella.SetPosition(-0.3),Raelin.SetPosition(1.3),Stella.Move(0.1),Raelin.Move(0.9)
