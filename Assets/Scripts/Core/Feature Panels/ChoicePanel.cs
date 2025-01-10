@@ -12,7 +12,7 @@ public class ChoicePanel : MonoBehaviour
     private const float BUTTON_MAX_WIDTH = 1000;
     private const float BUTTON_WIDTH_PADDING = 25;
 
-    private const float BUTTON_HEIGHT_PER_LINE = 50f;
+    private const float BUTTON_HEIGHT_PER_LINE = 100f;
     private const float BUTTON_HEIGHT_PADDING = 20;
 
     [SerializeField] private CanvasGroup canvasGroup;
@@ -83,7 +83,7 @@ public class ChoicePanel : MonoBehaviour
             //Debug.LogWarning($"{choiceButton.title}");
             choiceButton.title.text = choices[i];
 
-            float buttonWidth = Mathf.Clamp(BUTTON_WIDTH_PADDING + choiceButton.title.preferredWidth, BUTTON_MIN_WIDTH, BUTTON_MAX_WIDTH);
+            float buttonWidth = Mathf.Clamp(BUTTON_WIDTH_PADDING + choiceButton.layout.preferredWidth, BUTTON_MIN_WIDTH, BUTTON_MAX_WIDTH);
             maxWidth=Mathf.Max(maxWidth, buttonWidth);
         }
         foreach(var button in buttons)
@@ -111,6 +111,7 @@ public class ChoicePanel : MonoBehaviour
     public void Hide()
     {
         cg.Hide();
+        cg.SetInteractableState(false);
     }
 
     private void AcceptAnswer(int index)

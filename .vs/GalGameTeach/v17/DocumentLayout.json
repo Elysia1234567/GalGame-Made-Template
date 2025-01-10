@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\_testing\\scripts\\testconversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\testconversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\scripts\\core\\logical lines\\types\\ll_choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\logical lines\\types\\ll_choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|c:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\galgameteach\\assets\\scripts\\core\\dialogue\\managers\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\managers\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\resources\\dialogue files\\choice test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\resources\\dialogue files\\choice test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\feature panels\\choicepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\feature panels\\choicepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\logical lines\\types\\ll_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\logical lines\\types\\ll_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\logical lines\\logicallinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\logical lines\\logicallinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\managers\\conversationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\managers\\conversationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\characters\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\characters\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\managers\\conversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\managers\\conversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\feature panels\\choicepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\feature panels\\choicepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\testdialoguefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\testdialoguefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\io\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\io\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\managers\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\managers\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\graphic layer testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\graphic layer testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\testconversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\testconversationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\characters\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\characters\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\choicepaneltesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\audio testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\logical lines\\logicallinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\logical lines\\logicallinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\logical lines\\types\\ll_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\logical lines\\types\\ll_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\logical lines\\ilogicalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\scriptable objects\\characterconfigso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\testdialoguefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\testdialoguefiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\dialogue\\dialoguecontinueprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dialogue\\dialoguecontinueprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -191,10 +207,6 @@
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiochannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\_testing\\scripts\\graphic layer testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\_testing\\scripts\\graphic layer testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\graphic panels\\graphicpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\graphic panels\\graphicpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -205,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\audio\\audiotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\io\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\io\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA85243-C67C-69B3-31A4-16F144809DB1}|Assembly-CSharp.csproj|C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\assets\\scripts\\core\\commands\\database\\cmd_databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -286,20 +294,21 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ChoicePanel.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\ChoicePanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Feature Panels\\ChoicePanel.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\ChoicePanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Feature Panels\\ChoicePanel.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDUAAAAFAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAnwFUAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T07:21:38.592Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ConversationQueue.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationQueue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationQueue.cs",
@@ -308,17 +317,18 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T01:18:52.782Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Conversation.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Managers\\Conversation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Managers\\Conversation.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Managers\\Conversation.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Managers\\Conversation.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA2wBcAAAA7AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T12:24:49.208Z",
               "IsPinned": true,
@@ -326,28 +336,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ConversationManager.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationManager.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Managers\\ConversationManager.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCIAAAAoAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAD4v0gAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T08:59:01.191Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestConversationQueue.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
-              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwCcAAABOAAAA",
+              "Title": "LL_Choice.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Choice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Choice.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Choice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Choice.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAADcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T02:20:48.105Z",
+              "WhenOpened": "2025-01-10T02:57:12.712Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -357,42 +369,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CharacterManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAABKAAAA",
+              "Title": "LogicalLineManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAMwB0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:50:17.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\Character.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAYwMAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:55:58.372Z"
+              "WhenOpened": "2025-01-09T02:11:15.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LL_Input.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:06:38.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Choice Test.txt",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Choice Test.txt",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\Choice Test.txt",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Choice Test.txt",
+              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\Choice Test.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-10T02:46:16.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueSystem.cs",
               "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAArwHQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:01:41.181Z"
+              "WhenOpened": "2024-11-23T09:01:41.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "TestDialogueFiles.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
+              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAnwDcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:57:25.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FileManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IO\\FileManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FileManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\IO\\FileManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAjwCcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T08:29:38.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ChoicePanelTesting.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\ChoicePanelTesting.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\ChoicePanelTesting.cs",
@@ -404,463 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LL_Input.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\Types\\LL_Input.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T03:06:38.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InputPanel.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAWwCgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T03:03:37.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CanvasGroupController.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\CanvasGroupController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CanvasGroupController.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\CanvasGroupController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\CanvasGroupController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T02:41:44.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Input Panel Testing.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
-              "RelativeToolTip": "Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T01:36:05.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DialogueParser.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T15:01:46.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "TestCharacters.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestCharacters.cs",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestCharacters.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestCharacters.cs",
-              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestCharacters.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:52:10.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DialogueSegmentation.txt",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-01T02:35:30.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TagManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T07:36:54.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Audio Testing.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
-              "RelativeToolTip": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T07:23:11.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ILogicalLine.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T02:30:29.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LogicalLineManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\LogicalLineManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCMAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T02:11:15.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CommandDatabase.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T08:58:58.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CommandManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAADwv78AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T08:56:54.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DIALOGUE_LINE.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:02:53.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DL_SPEAKER_DATA.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:07:03.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DL_DIALOGUE_DATA.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T01:37:46.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CharacterSpriteLayer.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAcwJcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:14:57.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GraphicObject.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAADwv7cAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T02:40:02.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PlayerInputManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:58:34.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CMD_DatabaseExtension_Characters.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
-              "ViewState": "AQIAAM0BAAAAAAAAAAAuwNQBAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:15:54.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AutoReader.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:53:26.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Character_Sprite.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAIwE0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:52:41.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Simple Text.txt",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
-              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-07T13:18:07.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GraphicLayer.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAswFgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:37:08.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TextArchitect.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\TextArchitect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\TextArchitect.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\TextArchitect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\TextArchitect.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAuwFcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T01:10:30.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DL_COMMAND_DATA.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwCQAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:55:40.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CMD_DatabaseExtension_GraphicPanels.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T01:05:14.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CMD_Database Extension_Audio.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T06:42:48.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CMD_Database_Extension_General.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwD8AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:27:16.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DialogueSystemConfigurationSO.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvxEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:02:57.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DialogueContainer.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:24:20.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CharacterConfigData.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:22:57.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CharacterConfigSO.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:59:50.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TestDialogueFiles.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
-              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
-              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestDialogueFiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:57:25.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAAAswJkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T06:39:44.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "DialogueContinuePrompt.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvysAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T08:26:57.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "AudioChannel.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAYwGwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T08:44:30.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "FilePaths.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FilePaths.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IO\\FilePaths.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FilePaths.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\IO\\FilePaths.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T08:33:04.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 11,
               "Title": "Graphic Layer Testing.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Graphic Layer Testing.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Graphic Layer Testing.cs",
@@ -872,7 +470,463 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\Character.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAYwMAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:55:58.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CharacterManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:50:17.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestConversationQueue.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
+              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestConversationQueue.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwCcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:20:48.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InputPanel.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Feature Panels\\InputPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwCgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:03:37.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CanvasGroupController.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\CanvasGroupController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CanvasGroupController.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\CanvasGroupController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\CanvasGroupController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:41:44.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Input Panel Testing.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
+              "RelativeToolTip": "Assets\\_Testing\\Scripts\\Input Panel Testing.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T01:36:05.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DialogueParser.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueParser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:01:46.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TestCharacters.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestCharacters.cs",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestCharacters.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestCharacters.cs",
+              "RelativeToolTip": "Assets\\_Testing\\Scripts\\TestCharacters.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:52:10.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DialogueSegmentation.txt",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\DialogueSegmentation.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-01T02:35:30.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TagManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\TagManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:36:54.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Audio Testing.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Audio Testing.cs",
+              "RelativeToolTip": "Assets\\_Testing\\Scripts\\Audio Testing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T07:23:11.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ILogicalLine.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Logical Lines\\ILogicalLine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T02:30:29.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CommandDatabase.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\CommandDatabase.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T08:58:58.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CommandManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\CommandManager.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAADwv78AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T08:56:54.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DIALOGUE_LINE.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DIALOGUE_LINE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:02:53.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DL_SPEAKER_DATA.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_SPEAKER_DATA.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:07:03.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DL_DIALOGUE_DATA.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_DIALOGUE_DATA.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:37:46.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CharacterSpriteLayer.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterSpriteLayer.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAcwJcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:14:57.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GraphicObject.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicObject.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAADwv7cAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:40:02.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayerInputManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\User Controls\\PlayerInputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:58:34.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CMD_DatabaseExtension_Characters.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Characters.cs",
+              "ViewState": "AQIAAM0BAAAAAAAAAAAuwNQBAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:15:54.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AutoReader.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\AutoReader.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T02:53:26.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Character_Sprite.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Sprite.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAIwE0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:52:41.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Simple Text.txt",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
+              "RelativeDocumentMoniker": "Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
+              "RelativeToolTip": "Assets\\_Testing\\Resources\\Dialogue Files\\Simple Text.txt",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-07T13:18:07.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GraphicLayer.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicLayer.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswFgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T01:37:08.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TextArchitect.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\TextArchitect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\TextArchitect.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\TextArchitect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\TextArchitect.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwFcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:10:30.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DL_COMMAND_DATA.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\Data Containers\\DL_COMMAND_DATA.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:55:40.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CMD_DatabaseExtension_GraphicPanels.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_GraphicPanels.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T01:05:14.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CMD_Database Extension_Audio.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database Extension_Audio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T06:42:48.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CMD_Database_Extension_General.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_Database_Extension_General.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwD8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T02:27:16.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DialogueSystemConfigurationSO.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Scriptable Objects\\DialogueSystemConfigurationSO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:02:57.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DialogueContainer.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueContainer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:24:20.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CharacterConfigData.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Characters\\CharacterConfigData.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:22:57.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CharacterConfigSO.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Scriptable Objects\\CharacterConfigSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:59:50.508Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 48,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioManager.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAswJkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:39:44.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DialogueContinuePrompt.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Dialogue\\DialogueContinuePrompt.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvysAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T08:26:57.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AudioChannel.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Audio\\AudioChannel.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwGwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:44:30.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FilePaths.cs",
+              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FilePaths.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IO\\FilePaths.cs",
+              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FilePaths.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\IO\\FilePaths.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T08:33:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "GraphicPanel.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicPanel.cs",
@@ -884,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "GraphicPanelManager.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Graphic Panels\\GraphicPanelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Graphic Panels\\GraphicPanelManager.cs",
@@ -896,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "AudioTrack.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Audio\\AudioTrack.cs",
@@ -908,19 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FileManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IO\\FileManager.cs",
-              "ToolTip": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\IO\\FileManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\IO\\FileManager.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T08:29:38.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "CMD_DatabaseExtension.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\CMD_DatabaseExtension.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\CMD_DatabaseExtension.cs",
@@ -932,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "Character_Live2D.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Live2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Live2D.cs",
@@ -944,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "Character_Model3D.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Model3D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Model3D.cs",
@@ -956,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "CommandParameters.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandParameters.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\CommandParameters.cs",
@@ -968,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "ColorExtensions.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Extension\\ColorExtensions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Extension\\ColorExtensions.cs",
@@ -980,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "CoroutineWrapper.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Extension\\CoroutineWrapper.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Extension\\CoroutineWrapper.cs",
@@ -992,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "CommandProcess.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\CommandProcess.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\CommandProcess.cs",
@@ -1004,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "Character_Text.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Text.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Characters\\Character Types\\Character_Text.cs",
@@ -1016,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "CommandTesting.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\CommandTesting.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\CommandTesting.cs",
@@ -1028,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "\u5236\u4F5C\u611F\u60F3.txt",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_\u611F\u60F3\\\u5236\u4F5C\u611F\u60F3.txt",
               "RelativeDocumentMoniker": "Assets\\_\u611F\u60F3\\\u5236\u4F5C\u611F\u60F3.txt",
@@ -1040,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "NameContainer.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Dialogue\\NameContainer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Dialogue\\NameContainer.cs",
@@ -1052,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "CMD_DatabaseExtension_Examples.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Examples.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Commands\\Database\\Extensions\\CMD_DatabaseExtension_Examples.cs",
@@ -1064,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "testFile.txt",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\Resources\\testFile.txt",
               "RelativeDocumentMoniker": "Assets\\Resources\\testFile.txt",
@@ -1076,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "Testing_Architect.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\Testing_Architect.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\Testing_Architect.cs",
@@ -1088,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "TestParsing.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestParsing.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestParsing.cs",
@@ -1100,7 +1142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "TestFiles.cs",
               "DocumentMoniker": "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach\\Assets\\_Testing\\Scripts\\TestFiles.cs",
               "RelativeDocumentMoniker": "Assets\\_Testing\\Scripts\\TestFiles.cs",

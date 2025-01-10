@@ -57,9 +57,9 @@ public class TestDialogueFiles : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.DownArrow))
-            DialogueSystem.instance.dialogueContainer.Hide();
-        else if(Input.GetKeyDown(KeyCode.UpArrow))
-            DialogueSystem.instance.dialogueContainer.Show();
+        //if(Input.GetKeyDown(KeyCode.DownArrow))
+        //    DialogueSystem.instance.dialogueContainer.Hide();
+        //else if(Input.GetKeyDown(KeyCode.UpArrow))
+        //    DialogueSystem.instance.dialogueContainer.Show();
     }
 }

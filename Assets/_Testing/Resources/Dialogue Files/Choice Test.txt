@@ -1,0 +1,35 @@
+PlayAmbience(RainyMood),wait(1)
+
+enter Raelin "So,tell me.Do you like dogs or cats?"
+
+choice "What Pet Do You Prefer?"
+{
+	-Dogs
+		Raelin "Dogs are wonderful.They give you so much undeserved love!"
+		<mainChar> "Do you have a dog?"
+		Raelin "No,but one day I would love to have a big fluffy one!"
+	-Cats
+		Raelin "I love cats!{a}Well,{wa 0.5} when they aren't knocking over things..."
+		"But they can be so graceful at times."
+		"...{c}Except when they're knocking over things,haha!"
+	-Arachnids
+		Raelin "Ew -Why spiders?!"
+		choice "Why Spiders?"
+		{
+			-Have you ever seen a baby jumping spider?
+				Raelin "Oh -yeah, you're right.Those are pretty cute."
+				"But from a distance."
+			-Spiders aren't the only arachnids,you know.
+				Raelin "If its got eight legs,it's close enough!"
+			-They're cool.
+				Raelin "Well,we can be friends as long as you keep them away from me."
+				"I don't want any of that eight-legged freak action..."
+		}
+		<mainChar> "Say what you will,I like them."
+		Raelin "Everyone's got their preferences."
+	-I Prefer Chinchillas
+		Raelin "Oh,ther're cute."
+		"Did you know they take dust baths?I had no idea!"
+}
+
+Narrator "The sky rumbled as a storm approached.{c}Not soon after the storm worsened and the sky began to let down a deluge as lightning crackled above."
