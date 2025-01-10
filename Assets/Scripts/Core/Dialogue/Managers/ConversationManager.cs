@@ -43,6 +43,7 @@ namespace DIALOGUE
         public Coroutine StartConversation(Conversation conversation)
         {
             StopConversation();
+            conversationQueue.Clear();
             Enqueue(conversation);
             process=dialogueSystem.StartCoroutine(RunningConversation());
 

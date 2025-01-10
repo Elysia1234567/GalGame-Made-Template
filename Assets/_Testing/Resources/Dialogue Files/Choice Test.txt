@@ -33,3 +33,12 @@ choice "What Pet Do You Prefer?"
 }
 
 Narrator "The sky rumbled as a storm approached.{c}Not soon after the storm worsened and the sky began to let down a deluge as lightning crackled above."
+choice "Where Should You Go?"
+{
+	-To The Inn
+		Raelin "Stella"
+		Load(Chapter1_Inn)
+	-To The Ship
+		Raelin "Go to the ship"
+		Load(Chapter1_Ship)
+}
