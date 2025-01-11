@@ -16,7 +16,7 @@ namespace DIALOGUE
         public TextArchitect architect=null;
         private bool userPrompt = false;
 
-        private TagManager tagManager;
+        
         private LogicalLineManager logicalLineManager;
 
         public Conversation conversation =>(conversationQueue.IsEmpty()?null:conversationQueue.top);
@@ -27,7 +27,7 @@ namespace DIALOGUE
             this.architect=architect;
             dialogueSystem.onUserPrompt_Next += OnUserPrompt_Next;
 
-            tagManager = new TagManager();
+            
             logicalLineManager = new LogicalLineManager();
 
             conversationQueue = new ConversationQueue();
@@ -137,7 +137,7 @@ namespace DIALOGUE
                 character.Show();
             
 
-            dialogueSystem.ShowSpeakerName(tagManager.Inject(speakerData.displayname));
+            dialogueSystem.ShowSpeakerName(TagManager.Inject(speakerData.displayname));
 
             DialogueSystem.instance.ApplySpeakerDataToDialogueContainer(speakerData.name);
 
@@ -215,7 +215,7 @@ namespace DIALOGUE
 
         IEnumerator BuildDialogue(string dialogue,bool append=false)
         {
-            dialogue =tagManager.Inject(dialogue);
+            dialogue =TagManager.Inject(dialogue);
             if(!append)
                 architect.Build(dialogue);
             else
