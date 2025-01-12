@@ -36,7 +36,7 @@ namespace DIALOGUE.LogicalLines
 
             currentConversation.SetProgress(ifData.endingIndex);
             EncapsulateData selData=conditionResult?ifData:elseData;
-            if(selData.lines.Count>0)
+            if(!selData.isNull&&selData.lines.Count>0)
             {
                 Conversation newConversation = new Conversation(selData.lines);
                 DialogueSystem.instance.conversationManager.EnqueuePriority(newConversation);

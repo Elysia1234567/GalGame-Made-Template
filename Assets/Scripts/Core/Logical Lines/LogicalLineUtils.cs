@@ -14,6 +14,7 @@ namespace DIALOGUE.LogicalLines
        {
             public struct EncapsulateData
             {
+                public bool isNull => lines == null;
                 public List<string> lines;
                 public int startingIndex;
                 public int endingIndex;
