@@ -10,6 +10,8 @@ public class VariableStore
 {
     private const string DEFAULT_DATABASE_NAME = "Default";
     private const char DATABASE_VARIABLE_RELATIONAL_ID = '.';
+    public static readonly string REGEX_VARIABLE_IDS = @"[!]?\$[a-zA-Z0-9_.]+";//∆•≈‰¿˝»Á$obj.property
+    public const char VARIABLE_ID = '$';
     public class Database
     {
         public Database(string name)
@@ -82,6 +84,15 @@ public class VariableStore
         db.variables[variableName]=new Variable<T>(defaultValue, getter, setter);
 
         return true;
+    }
+
+    public static bool HasVariable(string name)
+    {
+        string[] parts = name.Split(DATABASE_VARIABLE_RELATIONAL_ID);
+        Database db = parts.Length > 1 ? GetDatabase(parts[0]) : defaultDatabase;
+        string variableName = parts.Length > 1 ? parts[1] : parts[0];
+
+        return db.variables.ContainsKey(variableName);
     }
 
     public static bool TryGetValue(string name,out object variable)

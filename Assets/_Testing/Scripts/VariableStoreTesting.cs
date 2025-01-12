@@ -22,6 +22,8 @@ namespace TESTING
 
             VariableStore.CreateVariable("DB_Numbers.num1", 1);
             VariableStore.CreateVariable("DB_Numbers.num2", 5);
+            VariableStore.CreateVariable("DB_Numbers.float1", 7.5);
+            
             VariableStore.CreateVariable("lightIsOn", true);
             VariableStore.CreateVariable("float1", 7.5f);
             VariableStore.CreateVariable("str1", "Hello");

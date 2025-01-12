@@ -1,3 +1,9 @@
-Input "What is your name?"
+input "What is your name?"
 
-<mainChar> "It is nice to meet you,<input>.I am level <playerLevel>"
+$name = "The Amazing <input>"
+
+narrator "You are $name!"
+
+$name += "From Outer Space"
+
+narrator "You are now $name"

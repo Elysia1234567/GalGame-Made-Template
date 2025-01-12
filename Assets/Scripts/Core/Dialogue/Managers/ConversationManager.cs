@@ -80,6 +80,7 @@ namespace DIALOGUE
                 DIALOGUE_LINE line = DialogueParser.Parse(rawLine);
                 if(logicalLineManager.TryGetLogic(line,out Coroutine logic))
                 {
+                    //Debug.LogWarning("ÕÒµ½Âß¼­ÁË");
                     yield return logic;
                 }
                 else
