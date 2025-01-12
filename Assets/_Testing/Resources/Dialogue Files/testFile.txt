@@ -1,9 +1,8 @@
-input "What is your name?"
+$money = 50
 
-$name = "The Amazing <input>"
+if($money > 45)
+{
+	narrator "You've got a lot of coin."
+}
 
-narrator "You are $name!"
-
-$name += "From Outer Space"
-
-narrator "You are now $name"
+narrator "Done with the condition"
