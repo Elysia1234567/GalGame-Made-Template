@@ -57,6 +57,11 @@ namespace CHARACTERS
 
         public Sprite GetSprite(string spriteName)
         {
+            if(config.sprites.Count > 0)
+            {
+                if(config.sprites.TryGetValue(spriteName, out Sprite sprite))
+                    return sprite;
+            }
             //Debug.LogWarning($"ÕıÔÚ½âÎö{spriteName}");
             if (config.characterType==CharacterType.SpriteSheet)
             {
