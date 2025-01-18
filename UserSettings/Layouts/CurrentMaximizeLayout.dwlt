@@ -170,15 +170,15 @@ MonoBehaviour:
     y: 0
     width: 699.2
     height: 380
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 5}
   - {fileID: 6}
   - {fileID: 7}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -779,7 +779,7 @@ MonoBehaviour:
   - {fileID: 11}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -861,7 +861,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29890
+  m_LastSelectedObjectID: 29070
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1233,9 +1233,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bede0000
+      m_SelectedIDs: 646f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff3c720000
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1331,7 +1331,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Testing/Resources/Dialogue Files
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1339,16 +1339,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/_Testing/Resources/Dialogue Files
+  - Assets
   m_LastFoldersGridSize: 57
   m_LastProjectPath: "C:\\101\u7409\u7483\u5BC6\u5F55\\\u94F6\u72FC\u9A87\u5BA2\u96C6\\\u897F\u4E8C\u5728\u7EBF\\unity\\\u9879\u76EE\\GalGameTeach"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 86.20001}
-    m_SelectedIDs: 06de0000
-    m_LastClickedID: 56838
-    m_ExpandedIDs: 00000000dedd0000e0dd0000e2dd0000e4dd0000e6dd0000e8dd0000eadd0000ecdd0000eedd0000f0dd0000f2dd0000f4dd0000f6dd0000f8dd000048de000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 46de0000
+    m_LastClickedID: 56902
+    m_ExpandedIDs: 0000000046de000048de00004ade00004cde00004ede000050de000052de000054de000056de000058de00005ade00005cde00005ede000060de000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1376,7 +1376,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dedd0000e0dd0000e2dd0000e4dd0000e6dd0000e8dd0000eadd0000ecdd0000eedd0000f0dd0000f2dd0000f4dd0000f6dd0000f8dd0000
+    m_ExpandedIDs: 0000000046de000048de00004ade00004cde00004ede000050de000052de000054de000056de000058de00005ade00005cde00005ede000060de0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1401,9 +1401,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: bede0000
-    m_LastClickedInstanceID: 57022
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 646f0000
+    m_LastClickedInstanceID: 28516
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 546c0000a86c000000d7000060d7000092d7000084d80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1428,7 +1428,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1172.2}
     m_GridSize: 57
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 179
@@ -1451,8 +1451,8 @@ MonoBehaviour:
     y: 0
     width: 274.40002
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}

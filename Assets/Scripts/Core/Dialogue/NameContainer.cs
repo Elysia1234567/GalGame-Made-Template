@@ -13,7 +13,7 @@ namespace DIALOGUE
     public class NameContainer
     {
         [SerializeField] private GameObject root;
-        [SerializeField] private TextMeshProUGUI nameText;
+        [field: SerializeField] public TextMeshProUGUI nameText {  get; private set; }
         // Start is called before the first frame update
 
         public void Show(string nameToShow = "")

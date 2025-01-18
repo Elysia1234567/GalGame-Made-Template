@@ -26,6 +26,8 @@ namespace CHARACTERS
         public bool highlighted { get;protected set; }=true;
         protected bool facingLeft=DEFAULT_ORIENTATION_IS_FACING_LEFT;
         public int priority {  get; protected set; }
+
+        public Vector2 targetPosition {  get; private set; }
         protected CharacterManager characterManager=>CharacterManager.instance;
 
         protected Coroutine co_revealing, co_hiding;
@@ -119,6 +121,8 @@ namespace CHARACTERS
             if (isMoving)
                 characterManager.StopCoroutine(co_moving);
             co_moving = characterManager.StartCoroutine(MovingToPosition(position, speed, smooth));
+
+            targetPosition =position;
             return co_moving;
         }
 
@@ -154,6 +158,7 @@ namespace CHARACTERS
 
             root.anchorMin=minAnchorTarget;
             root.anchorMax=maxAnchorTarget;
+            targetPosition = position;
         }
 
         public virtual void SetColor(Color color)

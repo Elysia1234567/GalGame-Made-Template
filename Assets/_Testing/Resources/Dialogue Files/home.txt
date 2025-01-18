@@ -1,0 +1,10 @@
+SetLayerMedia(background Nebula -blend radialClock),SetLayerMedia(background 1 SpaceshipInterior -blend radialClock)
+PlaySong("Happy")
+Stella.Show(),Raelin.Show(),Stella.SetPosition(-0.5),Raelin.SetPosition(-0.5)
+Stella.Move(0.3 -spd 1.5),Raelin.Move(0 -spd 1.5)
+wait(1)
+
+ShowDB(-i true)
+Raelin "Finally,out of that storm!{c}I'm so tired."
+Stella "May be you should take a shower and have a sleep."
+

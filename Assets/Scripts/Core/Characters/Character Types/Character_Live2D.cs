@@ -19,6 +19,9 @@ namespace CHARACTERS
         private List<CubismRenderController> oldRenderers=new List<CubismRenderController>();
 
         private float xScale;
+
+        public string activeExpression {  get; private set; }
+        public string activeMotion {  get; private set; }
         public override bool isVisible 
         { 
             get => isRevealing||renderController.Opacity>0;
@@ -38,16 +41,19 @@ namespace CHARACTERS
         public void SetMotion(string animationName)
         {
             motionAnimator.Play(animationName);
+            activeMotion=animationName;
         }
 
         public void SetExpression(int expressionIndex)
         {
             expressionController.CurrentExpressionIndex = expressionIndex;
+            activeExpression=expressionIndex.ToString();
         }
 
         public void SetExpression(string expressionName)
         {
             expressionController.CurrentExpressionIndex=GetExpressionIndexByName(expressionName);
+            activeExpression=expressionName;
         }
 
         private int GetExpressionIndexByName(string expressionName)

@@ -1,0 +1,14 @@
+SetLayerMedia(background  -m "BG Inn_night"),PlaySong(Calm2)
+Stella.Show(),Raelin.Show(),Stella.SetPosition(-0.5),Raelin.SetPosition(-0.5)
+Stella.Move(0.3 -spd 1.5),Raelin.Move(0 -spd 1.5)
+wait(1)
+
+ShowDB(-i true)
+Raelin "Finally,out of that storm!{c}Now let's just hope they have a room here."
+Stella "Let's find out.{c}Hello?{a} Is anyone here?"
+
+narrator "Stepping out from a room in the far back of the lodge,a tall,gruff man took his place behind the counter."
+
+CreateCharacter("Innkeeper as Generic" -e true),Innkeeper.SetSprite(Man),InnKeeper.SetPosition(1.3),Innkeeper.Move(1)
+
+Innkeeper "That's a nasty storm out here"

@@ -1,0 +1,9 @@
+SetLayerMedia(background  -m "Fantasy Landscape")
+Stella.Show(),Raelin.Show(),Stella.SetPosition(-0.5),Raelin.SetPosition(-0.5)
+Stella.Move(0.3 -spd 1.5),Raelin.Move(0 -spd 1.5)
+wait(1)
+
+ShowDB(-i true)
+Raelin "Wow!So wonderful!"
+Stella "Let's find out.{c}Hello?{a} Is anyone here?"
+
