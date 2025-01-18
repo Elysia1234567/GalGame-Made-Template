@@ -25,7 +25,10 @@ namespace History
 
         public void Load()
         {
-            dialogue.Apply();
+            DialogueData.Apply(dialogue);
+            CharacterData.Apply(characters);
+            AudioData.Apply(audio);
+            GraphicData.Apply(graphics);
             //characters.Apply();
             //audio.Apply();
             //graphics.Apply();

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 namespace History
 {
@@ -58,6 +59,46 @@ namespace History
 
             }
             return graphicPanels;
+        }
+
+        public static void Apply(List<GraphicData> data)
+        {
+            List<string> cache =new List<string>();
+
+            foreach(var panelData in data)
+            {
+                var panel=GraphicPanelManager.instance.GetPanel(panelData.panelName);
+
+                foreach(var layerData in panelData.layers)
+                {
+                    var layer = panel.GetLayer(layerData.depth, createIfDoesNotExist: true);
+                    if(layer.currentGraphic==null||layer.currentGraphic.graphicName!=layerData.graphicName)
+                    {
+                        if(!layerData.isVideo)
+                        {
+                            Texture tex = HistoryCache.LoadImage(layerData.graphicPath);
+                            if (tex != null)
+                                layer.SetTexture(tex, filePath: layerData.graphicPath, immediate: true);
+                            else
+                                Debug.LogWarning($"找不到路径为'{layerData.graphicPath}'的图片");
+                        }
+                        else
+                        {
+                            VideoClip clip=HistoryCache.LoadVideo(layerData.graphicPath);
+                            if (clip != null)
+                                layer.SetVideo(clip, filePath: layerData.graphicPath, immediate: true);
+                            else
+                                Debug.LogWarning($"找不到路径为{layerData.graphicPath}");
+                        }
+                    }
+                }
+                cache.Add(panel.panelName);
+            }
+            foreach(var panel in GraphicPanelManager.instance.allPanels)
+            {
+                if(!cache.Contains(panel.panelName))
+                    panel.Clear(immediate: true);
+            }
         }
     }
 }
