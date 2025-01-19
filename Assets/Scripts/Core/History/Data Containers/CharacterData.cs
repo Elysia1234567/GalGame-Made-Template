@@ -79,6 +79,7 @@ namespace History
                 entry.isHighlighted = character.highlighted;
                 entry.position=character.targetPosition;
                 entry.characterConfig=new CharacterConfigCache(character.config);
+                entry.isFacingLeft=character.isFacingLeft;
 
                 switch(character.config.characterType)
                 {

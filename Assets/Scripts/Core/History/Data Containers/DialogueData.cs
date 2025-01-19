@@ -1,6 +1,7 @@
 using DIALOGUE;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -50,8 +51,31 @@ namespace History
             dialogueText.text = data.currentDialogue;
             dialogueText.color = data. dialogueColor;
             dialogueText.fontSize = data.dialogueScale;
+            dialogueText.maxVisibleCharacters=dialogueText.text.Length;
+            dialogueText.ForceMeshUpdate();
+            //TMP_TextInfo textInfo = dialogueText.textInfo;
+            //Color32[] vertexColors = textInfo.meshInfo[textInfo.characterInfo[0].materialReferenceIndex].colors32;
+            //for(int i = 0; i < vertexColors.Length; i++)
+            //{
+            //    vertexColors[i].a = 255;
+            //}
+            //TMP_CharacterInfo[] tMP_CharacterInfos = textInfo.characterInfo;
+            //for(int i=0;i<tMP_CharacterInfos.Length;i++)
+            //{
+            //    TMP_CharacterInfo charInfo = textInfo.characterInfo[i];
+            //    if(!charInfo.isVisible) continue;
+            //    for(int v=0;v<4;v++)
+            //    {
+            //        vertexColors[charInfo.vertexIndex + v].a = 255;
+            //    }
+            //}
+            //dialogueText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
 
             nameText.text = data.currentSpeaker;
+            if (nameText.text != string.Empty)
+                ds.dialogueContainer.nameContainer.Show();
+            else
+                ds.dialogueContainer.nameContainer.Hide();
             nameText.color=data.speakerNameColor;
             nameText.fontSize = data.speakerScale;
 
