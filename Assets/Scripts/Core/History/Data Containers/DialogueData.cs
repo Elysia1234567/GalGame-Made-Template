@@ -48,11 +48,12 @@ namespace History
             var dialogueText = ds.dialogueContainer.dialogueText;
             var nameText = ds.dialogueContainer.nameContainer.nameText;
 
-            dialogueText.text = data.currentDialogue;
+            ds.conversationManager.architect.SetText(data.currentDialogue);
+            //dialogueText.text = data.currentDialogue;
             dialogueText.color = data. dialogueColor;
             dialogueText.fontSize = data.dialogueScale;
-            dialogueText.maxVisibleCharacters=dialogueText.text.Length;
-            dialogueText.ForceMeshUpdate();
+            //dialogueText.maxVisibleCharacters=dialogueText.text.Length;
+            //dialogueText.ForceMeshUpdate();
             //TMP_TextInfo textInfo = dialogueText.textInfo;
             //Color32[] vertexColors = textInfo.meshInfo[textInfo.characterInfo[0].materialReferenceIndex].colors32;
             //for(int i = 0; i < vertexColors.Length; i++)

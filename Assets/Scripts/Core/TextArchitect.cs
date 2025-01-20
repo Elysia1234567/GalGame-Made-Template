@@ -111,13 +111,13 @@ public class TextArchitect
 
     public void ForceComplete()
     {
-        switch(buildMethod)
+        tmpro.ForceMeshUpdate();
+        switch (buildMethod)
         {
             case BuildMethod.typewriter:
                 tmpro.maxVisibleCharacters=tmpro.textInfo.characterCount;
                 break;
             case BuildMethod.fade:
-                tmpro.ForceMeshUpdate();
                 forceEnd = true;
                 break;
         }
@@ -253,4 +253,18 @@ public class TextArchitect
             
         }
     }
+
+    public void SetText(string text)
+    {
+        preText = "";
+        targetText = text;
+
+        Stop();
+
+        tmpro.text=targetText;
+        ForceComplete();
+        
+    }
+
+    
 }

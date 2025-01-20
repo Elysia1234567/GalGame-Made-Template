@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using static History.CharacterData.AnimationData;
 
 namespace History
 {
@@ -19,6 +20,7 @@ namespace History
         public Vector2 position;
         public CharacterConfigCache characterConfig;
 
+        public string animationJSON;
         public string dataJSON;
 
         [System.Serializable]
@@ -80,6 +82,7 @@ namespace History
                 entry.position=character.targetPosition;
                 entry.characterConfig=new CharacterConfigCache(character.config);
                 entry.isFacingLeft=character.isFacingLeft;
+                entry.animationJSON = GetAnimationData(character);
 
                 switch(character.config.characterType)
                 {
@@ -146,6 +149,9 @@ namespace History
                 character.SetPosition(characterData.position);
                 character.isVisible = characterData.enabled;
 
+                AnimationData animationData = JsonUtility.FromJson<AnimationData>(characterData.animationJSON);
+                ApplyAnimationData(character,animationData);
+
                 switch(character.config.characterType)
                 {
                     case Character.CharacterType.Sprite:
@@ -187,6 +193,74 @@ namespace History
             {
                 if(!cache.Contains(character.name))
                     character.isVisible = false;
+            }
+        }
+
+        private static string GetAnimationData(Character character)
+        {
+            Animator animator=character.animator;
+            AnimationData data=new AnimationData();
+
+            foreach(var param in animator.parameters)
+            {
+                if(param.type==AnimatorControllerParameterType.Trigger)
+                    continue;
+                AnimationParameter pData =new AnimationParameter { name=param.name };
+                switch(param.type)
+                {
+                    case AnimatorControllerParameterType.Bool:
+                        pData.type = "Bool";
+                        pData.value=animator.GetBool(param.name).ToString();
+                        break;
+                    case AnimatorControllerParameterType.Float:
+                        pData.type = "Float";
+                        pData.value = animator.GetFloat(param.name).ToString();
+                        break;
+                    case AnimatorControllerParameterType.Int:
+                        pData.type = "Int";
+                        pData.value=animator.GetInteger(param.name).ToString();
+                        break;
+                }
+
+                data.parameters.Add(pData);
+            }
+
+            return JsonUtility.ToJson(data);
+        }
+
+        private static void ApplyAnimationData(Character character,AnimationData data)
+        {
+            Animator animator=character.animator;
+
+            foreach(var param in data.parameters)
+            {
+                switch(param.type)
+                {
+                    case "Bool":
+                        animator.SetBool(param.name, bool.Parse(param.value));
+                        break;
+                    case "Float":
+                        animator.SetFloat(param.name, float.Parse(param.value));
+                        break;
+                    case "Int":
+                        animator.SetInteger(param.name, int.Parse(param.value));
+                        break;
+                }
+            }
+
+            animator.SetTrigger(Character.ANIMATION_REFRESH_TRIGGER);
+        }
+
+        [System.Serializable]
+        public class AnimationData
+        {
+            public List<AnimationParameter> parameters=new List<AnimationParameter>();
+            [System.Serializable]
+            public class AnimationParameter
+            {
+                public string name;
+                public string type;
+                public string value;
             }
         }
 
