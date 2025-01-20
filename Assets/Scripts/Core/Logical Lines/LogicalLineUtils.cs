@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Unity.VisualScripting;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
@@ -26,10 +27,10 @@ namespace DIALOGUE.LogicalLines
             public static bool IsEncapsulationStart(string line) => line.Trim().StartsWith(ENCAPSULATION_START);
             public static bool IsEncapsulationEnd(string line) => line.Trim().StartsWith(ENCAPSULATION_END);
 
-            public static EncapsulateData RipEncapsulationData(Conversation conversation,int startingIndex,bool ripHeaderAndEncapsualators=false)
+            public static EncapsulateData RipEncapsulationData(Conversation conversation,int startingIndex,bool ripHeaderAndEncapsualators=false,int parentStartingIndex=0)
             {
                 int encapsulationDepth = 0;
-                EncapsulateData data = new EncapsulateData { lines = new List<string>(), endingIndex = 0 };
+                EncapsulateData data = new EncapsulateData { lines = new List<string>(), startingIndex=(startingIndex+parentStartingIndex),endingIndex = 0 };
                 for (int i = startingIndex; i < conversation.Count; i++)
                 {
                     string line = conversation.GetLines()[i];
@@ -47,7 +48,7 @@ namespace DIALOGUE.LogicalLines
                         encapsulationDepth--;
                         if (encapsulationDepth == 0)
                         {
-                            data.endingIndex = i;
+                            data.endingIndex = (i+parentStartingIndex);
                             break;
                         }
                     }

@@ -1,6 +1,8 @@
 using DIALOGUE;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using UnityEditor;
 using UnityEngine;
 
 public class TestDialogueFiles : MonoBehaviour
@@ -14,7 +16,15 @@ public class TestDialogueFiles : MonoBehaviour
 
     void StartConversation()
     {
-        List<string> lines = FileManager.ReadTextAsset(fileToRead);
+       // List<string> lines = FileManager.ReadTextAsset(fileToRead);
+       string fullPath=AssetDatabase.GetAssetPath(fileToRead);
+
+        int resourcesIndex = fullPath.IndexOf("Resources/");
+        string relativePath=fullPath.Substring(resourcesIndex+10);
+
+        string filePath = Path.ChangeExtension(relativePath, null);
+
+        VNManager.instance.LoadFile(filePath);
         //foreach (string line in lines)
         //{
         //    if(string.IsNullOrEmpty(line)) continue;
@@ -53,7 +63,7 @@ public class TestDialogueFiles : MonoBehaviour
         //        Debug.Log($"现在是第{i}条命令，命令的名字是{command.name},命令的参数是[{string.Join(", ", command.arguments)}]");
         //    }
         //}
-        DialogueSystem.instance.Say(lines);
+        
     }
     private void Update()
     {
