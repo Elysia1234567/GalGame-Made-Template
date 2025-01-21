@@ -101177,6 +101177,7 @@ GameObject:
   - component: {fileID: 1729798746}
   - component: {fileID: 1729798747}
   - component: {fileID: 1729798748}
+  - component: {fileID: 1729798749}
   m_Layer: 0
   m_Name: Test Dialogue Files and System Conversation
   m_TagString: Untagged
@@ -101261,6 +101262,18 @@ MonoBehaviour:
     characters: []
     audio: []
     graphics: []
+--- !u!114 &1729798749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729798743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5df7b785a7d5e4e9964d2b9fed6559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1730166088
 Mesh:
   m_ObjectHideFlags: 0

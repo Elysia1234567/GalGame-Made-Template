@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -133,6 +134,12 @@ namespace History
                 DestroyImmediate(logs[i].container);
 
             logs.Clear();
+        }
+
+        public void Rebuild()
+        {
+            foreach(var state in manager.history)
+                CreateLog(state);
         }
     }
 }

@@ -30,14 +30,16 @@ namespace DIALOGUE.LogicalLines
                 if(nextLine==ELSE)
                 {
                     elseData=RipEncapsulationData(currentConversation,ifData.endingIndex+1,false,parentStartingIndex:currentConversation.fileStartIndex);
-                    ifData.endingIndex = elseData.endingIndex;
+                    
                 }
             }
 
-            currentConversation.SetProgress(ifData.endingIndex);
+            currentConversation.SetProgress(elseData.isNull? ifData.endingIndex:elseData.endingIndex);
             EncapsulateData selData=conditionResult?ifData:elseData;
             if(!selData.isNull&&selData.lines.Count>0)
             {
+                selData.startingIndex += 2;
+                selData.endingIndex -= 1 ;
                 Conversation newConversation = new Conversation(selData.lines,file:currentConversation.file,fileStartIndex:selData.startingIndex,fileEndIndex:selData.endingIndex);
                 DialogueSystem.instance.conversationManager.EnqueuePriority(newConversation);
             }

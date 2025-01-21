@@ -3,28 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VNManager : MonoBehaviour
+namespace VISUALNOVEL
 {
-    public static VNManager instance { get; private set; }
-
-    private void Awake()
+    public class VNManager : MonoBehaviour
     {
-        instance = this;
-    }
-    public void LoadFile(string filePath)
-    {
-        List<string> lines=new List<string>();
-        TextAsset file =Resources.Load<TextAsset>(filePath);
+        public static VNManager instance { get; private set; }
 
-        try
+        private void Awake()
         {
-            lines = FileManager.ReadTextAsset(file);
+            instance = this;
         }
-        catch 
+        public void LoadFile(string filePath)
         {
-            Debug.LogError($"路径为'Resources/{filePath}的文件不存在'");
-            return;
+            List<string> lines = new List<string>();
+            TextAsset file = Resources.Load<TextAsset>(filePath);
+
+            try
+            {
+                lines = FileManager.ReadTextAsset(file);
+            }
+            catch
+            {
+                Debug.LogError($"路径为'Resources/{filePath}的文件不存在'");
+                return;
+            }
+            DialogueSystem.instance.Say(lines, filePath);
         }
-        DialogueSystem.instance.Say(lines,filePath);
     }
 }

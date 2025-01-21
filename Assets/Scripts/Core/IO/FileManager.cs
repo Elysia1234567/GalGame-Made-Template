@@ -54,4 +54,50 @@ public class FileManager
         }
         return lines;
     }
+
+    public static bool TryCreateDirectoryFromPath(string path)
+    {
+        Debug.LogWarning(path);
+        if (Directory.Exists(path) || File.Exists(path))
+            return true;
+        if(path.Contains("."))
+        {
+            path=Path.GetDirectoryName(path);
+            if(Directory.Exists(path))
+                return true ;
+
+        }
+        if(path==string.Empty)
+            return false;
+        return false;
+    }
+
+    public static void Save(string filePath,string JSONData)
+    {
+        if(!TryCreateDirectoryFromPath(filePath))
+        {
+            Debug.LogError($"FAILED TO SAVE FILE '{filePath}'");
+            return;
+        }
+
+        StreamWriter sw=new StreamWriter(filePath);
+        sw.Write(JSONData);
+        sw.Close();
+
+        Debug.Log($"保存文件到{filePath}");
+    }
+
+    public static T Load<T>(string filePath)
+    {
+        if(File.Exists(filePath))
+        {
+            string JSONData = File.ReadAllLines(filePath)[0];
+            return JsonUtility.FromJson<T>(JSONData);
+        }
+        else
+        {
+            Debug.LogError($"文件{filePath}不存在");
+            return default(T);
+        }
+    }
 }
