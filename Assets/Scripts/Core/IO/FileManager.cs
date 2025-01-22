@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using UnityEngine;
 
 public class FileManager
 {
-   public static List<string> ReadTextFile(string filePath,bool includeBlankLines=true)
-   {
+    private const string KEY = "SECRETKEY";
+    public static List<string> ReadTextFile(string filePath,bool includeBlankLines=true)
+    {
         if(!filePath.StartsWith('/'))
             filePath=FilePaths.root+filePath;
         List<string > lines=new List<string>();
@@ -72,7 +74,7 @@ public class FileManager
         return false;
     }
 
-    public static void Save(string filePath,string JSONData)
+    public static void Save(string filePath,string JSONData,bool encrypt=false)
     {
         if(!TryCreateDirectoryFromPath(filePath))
         {
@@ -80,24 +82,66 @@ public class FileManager
             return;
         }
 
-        StreamWriter sw=new StreamWriter(filePath);
-        sw.Write(JSONData);
-        sw.Close();
+        if(encrypt)
+        {
+            byte[] dataBytes = Encoding.UTF8.GetBytes(JSONData);
+            byte[] keyBytes = Encoding.UTF8.GetBytes(KEY);
+            byte[] encryptedBytes = XOR(dataBytes, keyBytes);
+            Debug.LogWarning($"写入的二进制数组为{encryptedBytes}");
+            File.WriteAllBytes(filePath, encryptedBytes);
+            //File.WriteAllBytes(filePath, dataBytes);
+        }
+        else
+        {
+            StreamWriter sw = new StreamWriter(filePath);
+            sw.Write(JSONData);
+            sw.Close();
+        }
+       
 
         Debug.Log($"保存文件到{filePath}");
     }
 
-    public static T Load<T>(string filePath)
+    public static T Load<T>(string filePath,bool encrypt = false)
     {
         if(File.Exists(filePath))
         {
-            string JSONData = File.ReadAllLines(filePath)[0];
-            return JsonUtility.FromJson<T>(JSONData);
+            if(encrypt)
+            {
+                byte[] encryptedBytes=File.ReadAllBytes(filePath);
+                byte[] keyBytes=Encoding.UTF8.GetBytes(KEY);
+
+                byte[] decryptedBytes= XOR(encryptedBytes, keyBytes);
+
+                string decryptedString = Encoding.UTF8.GetString(decryptedBytes);
+                string encryptedString=Encoding.UTF8.GetString(encryptedBytes);
+                Debug.LogWarning(decryptedString);
+                Debug.LogWarning(encryptedString);
+                return JsonUtility.FromJson<T>(decryptedString);
+            }
+            else
+            {
+                string JSONData = File.ReadAllLines(filePath)[0];
+                return JsonUtility.FromJson<T>(JSONData);
+            }
+            
         }
         else
         {
             Debug.LogError($"文件{filePath}不存在");
             return default(T);
         }
+    }
+
+    private static byte[] XOR(byte[] input, byte[] key)
+    {
+        byte[] output = new byte[input.Length];
+
+        for(int i = 0; i < input.Length; i++)
+        {
+            output[i] = (byte)(input[i] ^ key[i % key.Length]);
+        }
+
+        return output;
     }
 }

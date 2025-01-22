@@ -15,7 +15,7 @@ namespace VISUALNOVEL
 
         public const string FILE_TYPE = ".vns";
         public const string SCREENSHOT_FILE_TYPE = ".jpg";
-        public const bool ENCRYPT_FILES = false;
+        public const bool ENCRYPT = true;
 
         public string filePath => $"{FilePaths.gameSaves}{slotNumber}{FILE_TYPE}";
 
@@ -29,6 +29,17 @@ namespace VISUALNOVEL
         public HistoryState[] historyLogs;
         public VN_VariableData[] variables;
 
+        public static VNGameSave Load(string filePath,bool activateOnLoad = false)
+        {
+            VNGameSave save=FileManager.Load<VNGameSave>(filePath,ENCRYPT);
+
+            activeFile = save;
+
+            if(activateOnLoad)
+                save.Activate();
+            return save;
+        }
+
         public void Save()
         {
             activeState = HistoryState.Capture();
@@ -37,11 +48,11 @@ namespace VISUALNOVEL
             variables = GetVariableData();
 
             string saveJSON =JsonUtility.ToJson(this);
-            FileManager.Save(filePath, saveJSON);
+            FileManager.Save(filePath, saveJSON,ENCRYPT);
 
         }
 
-        public void Load()
+        public void Activate()
         {
             if(activeState!=null)
                 activeState.Load();
