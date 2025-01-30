@@ -36,6 +36,12 @@ namespace DIALOGUE.LogicalLines
             DialogueSystem.instance.conversationManager.conversation.SetProgress(data.endingIndex-currentConversation.fileStartIndex);
             DialogueSystem.instance.conversationManager.EnqueuePriority(newConversation);
             
+            AutoReader autoReader = DialogueSystem.instance.autoReader;
+            if(autoReader!= null&&autoReader.isOn&&autoReader.skip)
+            {
+                if (VN_Configuration.activeConfig!=null&& !VN_Configuration.activeConfig.continueSkippingAfterChoice)
+                    autoReader.Disable();
+            }
         }
 
         private List<Choice> GetChoicesFromData(EncapsulateData data)

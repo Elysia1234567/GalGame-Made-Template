@@ -115,8 +115,8 @@ public class FileManager
 
                 string decryptedString = Encoding.UTF8.GetString(decryptedBytes);
                 string encryptedString=Encoding.UTF8.GetString(encryptedBytes);
-                Debug.LogWarning(decryptedString);
-                Debug.LogWarning(encryptedString);
+                //Debug.LogWarning(decryptedString);
+                //Debug.LogWarning(encryptedString);
                 return JsonUtility.FromJson<T>(decryptedString);
             }
             else

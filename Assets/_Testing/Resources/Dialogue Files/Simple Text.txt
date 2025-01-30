@@ -5,6 +5,8 @@ Stella.Show(),Raelin.Show()
 
 Stella "Finally here!"
 
+ShowGalleryImage(-m 1)
+
 Stella.Move(0.2 -spd 0.3)
 Stella "Hey,Raelin - you think this place has an inn?"
 
@@ -13,6 +15,8 @@ Raelin.SetSprite(A2 -l 0 -spd 1),Raelin.SetSprite(A_Scold -l 1 -spd 1)
 
 Stella.Move(0.1 -spd 0.5)
 Stella "Yeah,maybe.But since we're stuck out here,I prefer to think of it like a nice,cold shower!"
+
+HideGalleryImage()
 
 Raelin.Animate(Hop),Raelin.Move(0.7 -spd 0.7)
 Raelin [0:B1,1:B_Scold] "Okay - first of all...{wa 0.5} Cold showers are not nice. I don't care what anyone says.{c}And secondly.I don't shower with my clothes on.{c}Let's just find somewhere quickly."

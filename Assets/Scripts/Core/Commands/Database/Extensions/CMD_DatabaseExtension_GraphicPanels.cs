@@ -83,11 +83,15 @@ namespace COMMANDS
 
             if (graphic is Texture)
             {
-                yield return graphicLayer.SetTexture(graphic as  Texture,transitionSpeed,blendTex,pathToGraphic,immediate);
+                if (!immediate)
+                    CommandManager.instance.AddTerminationActionToCurrentProcess(() => { graphicLayer?.SetTexture(graphic as Texture, filePath: pathToGraphic, immediate: true); });
+                yield return graphicLayer.SetTexture(graphic as  Texture,transitionSpeed,blendTex,filePath:pathToGraphic,immediate);
             }
             else
             {
-                yield return graphicLayer.SetVideo(graphic as VideoClip, transitionSpeed,useAudio, blendTex, pathToGraphic, immediate);
+                if (!immediate)
+                    CommandManager.instance.AddTerminationActionToCurrentProcess(() => { graphicLayer.SetVideo(graphic as VideoClip, filePath: pathToGraphic, immediate:true); });
+                yield return graphicLayer.SetVideo(graphic as VideoClip, transitionSpeed,useAudio, blendTex, filePath:pathToGraphic, immediate);
             }
         }
 

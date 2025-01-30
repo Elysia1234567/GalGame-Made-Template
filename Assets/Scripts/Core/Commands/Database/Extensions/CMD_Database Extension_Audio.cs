@@ -47,11 +47,17 @@ namespace COMMANDS
 
             parameters.TryGetValue(PARAM_LOOP, out loop,defaultValue:false);
 
-            AudioClip sound =Resources.Load<AudioClip>(FilePaths.GetPathToResource(FilePaths.resources_sfx,filepath));
+            string resourcesPath = FilePaths.GetPathToResource(FilePaths.resources_sfx,filepath);
+            AudioClip sound = Resources.Load<AudioClip>(resourcesPath);
 
-            if(sound==null)
+            if(sound == null)
+            {
+                Debug.LogWarning($"Œﬁ∑®º”‘ÿ{filepath}");
                 return;
-            AudioManager.instance.PlaySoundEffect(sound,volume:volume, pitch:pitch,loop:loop);
+            }
+
+           
+            AudioManager.instance.PlaySoundEffect(sound,volume:volume, pitch:pitch,loop:loop,filePath:resourcesPath);
         }
 
         private static void StopSFX(string data)

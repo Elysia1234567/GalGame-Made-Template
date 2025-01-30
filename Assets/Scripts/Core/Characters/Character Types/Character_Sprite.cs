@@ -25,7 +25,9 @@ namespace CHARACTERS
         }
         public Character_Sprite(string name, CharacterConfigData config, GameObject prefab,string rootAssetsFolder) : base(name, config, prefab)
         {
+            //Debug.LogWarning(root);
             rootCG.alpha = ENABLE_ON_START?1:0;
+            
             artAssetDirectory = rootAssetsFolder+"/Images";
             GetLayers();
             Debug.Log($"你创建了一个精灵角色{name}");

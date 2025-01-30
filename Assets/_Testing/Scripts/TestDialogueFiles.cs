@@ -25,7 +25,7 @@ public class TestDialogueFiles : MonoBehaviour
 
         string filePath = Path.ChangeExtension(relativePath, null);
 
-        VNManager.instance.LoadFile(filePath);
+        LoadFile(filePath);
         //foreach (string line in lines)
         //{
         //    if(string.IsNullOrEmpty(line)) continue;
@@ -72,5 +72,21 @@ public class TestDialogueFiles : MonoBehaviour
         //    DialogueSystem.instance.dialogueContainer.Hide();
         //else if(Input.GetKeyDown(KeyCode.UpArrow))
         //    DialogueSystem.instance.dialogueContainer.Show();
+    }
+    public void LoadFile(string filePath)
+    {
+        List<string> lines = new List<string>();
+        TextAsset file = Resources.Load<TextAsset>(filePath);
+
+        try
+        {
+            lines = FileManager.ReadTextAsset(file);
+        }
+        catch
+        {
+            Debug.LogError($"路径为'Resources/{filePath}的文件不存在'");
+            return;
+        }
+        DialogueSystem.instance.Say(lines, filePath);
     }
 }

@@ -16,7 +16,7 @@ namespace CHARACTERS
 
         private CharacterConfigSO config=>DialogueSystem.instance.config.characterConfigurationAsset;
 
-        private const string CHARACTER_CASTING_ID = " as ";
+        public const string CHARACTER_CASTING_ID = " as ";
         private const string CHARACTER_NAME_ID = "<charname>";
         public string characterRootPathFormat => $"Characters/{CHARACTER_NAME_ID}";
 
@@ -68,6 +68,9 @@ namespace CHARACTERS
 
             Character character=CreateCharacterFromInfo(info);
 
+            if(info.castingName!=info.name)
+                character.castingName=info.castingName;
+
             characters.Add(info.name.ToLower(), character);
             if(revealAfterCreation)
                 character.Show();
@@ -107,6 +110,7 @@ namespace CHARACTERS
                     return new Character_Text(info.name,info.config);
                 case Character.CharacterType.Sprite:
                 case Character.CharacterType.SpriteSheet:
+                    //Debug.LogWarning($"{info}+{info.name}+{info.config}+{info.prefab}+{info.rootCharacterFolder}");
                     return new Character_Sprite(info.name, info.config,info.prefab,info.rootCharacterFolder);
                 case Character.CharacterType.Live2D:
                     return new Character_Live2D(info.name, info.config, info.prefab,info.rootCharacterFolder);
